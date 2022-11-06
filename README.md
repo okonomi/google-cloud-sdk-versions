@@ -1,5 +1,5 @@
-# Google Cloud SDK releases
+# Google Cloud SDK release notes feed
 
-Release tracker for Google Cloud SDK.
+RSS Feed for Google Cloud SDK release notes.
 
-https://okonomi.github.io/google-cloud-sdk-releases/
+https://okonomi.github.io/google-cloud-sdk-release-notes-feed/
