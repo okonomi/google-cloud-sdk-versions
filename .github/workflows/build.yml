@@ -21,3 +21,8 @@ jobs:
         bundler-cache: true
     - name: Run build.sh
       run: ./build.sh
+    - name: Push updated
+      run: |
+        git add .
+        git commit -am "Generate feed"
+        git push
