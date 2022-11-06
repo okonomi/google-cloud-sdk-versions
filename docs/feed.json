@@ -8,13 +8,13 @@
       "id": "091_2013-04-10",
       "url": "https://cloud.google.com/sdk/docs/release-notes#091_2013-04-10",
       "content_html": "<ul><li>Fixed an issue with gauth that occurred when running a command beforecredentials were created.</li></ul>",
-      "date_published": "2013-04-10T00:00:00"
+      "date_published": "2013-04-10T00:00:00Z"
     },
     {
       "id": "090_2013-04-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#090_2013-04-09",
       "content_html": "<ul><li>Developer preview release of the Cloud SDK</li><li>Includes command line tools for:<ul><li>App Engine</li><li>BigQuery</li><li>Compute Engine</li><li>Cloud Storage</li><li>Cloud SQL</li></ul></li><li>Includes the new gauth tool for one time common authentication for all tools</li></ul>",
-      "date_published": "2013-04-09T00:00:00"
+      "date_published": "2013-04-09T00:00:00Z"
     }
   ]
 }
