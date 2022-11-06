@@ -10,3 +10,5 @@ mkdir -p docs/feeds
 for i in $(seq 0 $(($PAGE_COUNT - 1))); do
   cat docs/feed.json | ruby ./split_feed.rb $PAGE_COUNT $i | jq > docs/feeds/$i.json
 done
+
+cat docs/feed.json | jq -r ".items[0] | .title" | sed -E "s/^([0-9]+.[0-9]+.[0-9]+).*/\1/" > docs/latest.txt
