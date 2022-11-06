@@ -1,6 +1,5 @@
 #/usr/bin/env bash
-
-set -xe -o pipefail
+set -euxo pipefail
 
 curl https://cloud.google.com/sdk/docs/release-notes | ruby release_notes_to_feed.rb | jq > docs/feed.json
 
