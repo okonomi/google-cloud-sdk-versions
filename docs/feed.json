@@ -3025,7 +3025,7 @@
       "id": "090_2013-04-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#090_2013-04-09",
       "title": "0.9.0 (2013-04-09)",
-      "content_html": "<ul>\n<li>Developer preview release of the Cloud SDK</li>\n<li>Includes command line tools for:\n<ul>\n<li>App Engine</li>\n<li>BigQuery</li>\n<li>Compute Engine</li>\n<li>Cloud Storage</li>\n<li>Cloud SQL</li>\n</ul>\n</li>\n<li>Includes the new gauth tool for one time common authentication for all tools</li>\n</ul><devsite-hats-survey class=\"nocontent\" hats-id=\"Nd7nTix2o0eU5NUYprb0ThtUc5jf\" listnr-id=\"83405\"></devsite-hats-survey>",
+      "content_html": "<ul>\n<li>Developer preview release of the Cloud SDK</li>\n<li>Includes command line tools for:\n<ul>\n<li>App Engine</li>\n<li>BigQuery</li>\n<li>Compute Engine</li>\n<li>Cloud Storage</li>\n<li>Cloud SQL</li>\n</ul>\n</li>\n<li>Includes the new gauth tool for one time common authentication for all tools</li>\n</ul>",
       "date_published": "2013-04-09T00:00:00+00:00"
     }
   ]
