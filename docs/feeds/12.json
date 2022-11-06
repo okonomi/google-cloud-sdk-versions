@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Google Cloud SDK release notes feed",
-  "home_page_url": "https://okonomi.github.io/google-cloud-sdk-releases/",
-  "feed_url": "https://okonomi.github.io/google-cloud-sdk-releases/feed.json",
+  "home_page_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/",
+  "feed_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feed.json",
   "items": [
     {
       "id": "0973_2015-08-12",
@@ -215,5 +215,5 @@
       "date_published": "2015-01-08T00:00:00+00:00"
     }
   ],
-  "next_url": "https://okonomi.github.io/google-cloud-sdk-releases/feeds/13.json"
+  "next_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feeds/13.json"
 }
