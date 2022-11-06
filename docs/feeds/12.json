@@ -1,0 +1,219 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Google Cloud SDK release notes feed",
+  "home_page_url": "https://okonomi.github.io/google-cloud-sdk-releases/",
+  "feed_url": "https://okonomi.github.io/google-cloud-sdk-releases/feed.json",
+  "items": [
+    {
+      "id": "0973_2015-08-12",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0973_2015-08-12",
+      "title": "0.9.73 (2015-08-12)",
+      "content_html": "<ul>\n<li>gcloud sql instances create default to MySQL 5.6</li>\n<li>gcloud beta container get-credentials renamed to gcloud beta container\nclusters get-credentials</li>\n<li>New commands\n<ul>\n<li>gcloud beta projects ...</li>\n<li>gcloud alpha genomics callsets ...</li>\n<li>gcloud beta emulators datastore ...</li>\n<li>gcloud beta container get-server-config</li>\n<li>gcloud alpha config configurations</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2015-08-12T00:00:00+00:00"
+    },
+    {
+      "id": "0972_2015-08-05",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0972_2015-08-05",
+      "title": "0.9.72 (2015-08-05)",
+      "content_html": "<ul>\n<li>gcloud compute\n<ul>\n<li>initial surface changes for the backend-bucket.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">instance-groups set-named-ports</code>: introduced a new flag\n<code translate=\"no\" dir=\"ltr\">--named-ports NAME:PORT,[NAME:PORT,...]</code> - no need to specify names\nand ports in separate flags.</li>\n</ul>\n</li>\n<li>gcloud preview app deploy\nDeprecate <code translate=\"no\" dir=\"ltr\">--remote</code> flag in preparation for hosted Docker builds by\ndefault. Instead, please use the <code translate=\"no\" dir=\"ltr\">--docker-build={remote,local}</code> flag.\nThe default is still a local Docker build; in two releases, the default\nwill switch to a hosted build.</li>\n<li>New gcloud alpha genomics operations {list, cancel, describe} commands</li>\n</ul>",
+      "date_published": "2015-08-05T00:00:00+00:00"
+    },
+    {
+      "id": "0971_2015-07-29",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0971_2015-07-29",
+      "title": "0.9.71 (2015-07-29)",
+      "content_html": "<ul>\n<li>Launching <code translate=\"no\" dir=\"ltr\">gcloud alpha pubsub</code> commands.</li>\n<li>Moved <code translate=\"no\" dir=\"ltr\">gcloud preview rolling-updates</code> to <code translate=\"no\" dir=\"ltr\">gcloud alpha compute\nrolling-updates</code>.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha compute disks resize</code> command enabling resizing of persistent\ndisks.</li>\n<li>Beta launch of customer supplied encryption keys for Compute Engine.</li>\n<li>Updated kubectl to 1.0.1.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha container</code> commands now target Container Engine v1 API.\nOptions for <code translate=\"no\" dir=\"ltr\">gcloud alpha container clusters create</code> updated accordingly:\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">--user</code> renamed to <code translate=\"no\" dir=\"ltr\">--username</code>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--cluster-api-version</code> removed. Cluster version is not selectable in v1\nAPI; new clusters always created at latest supported version.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--image</code> option removed. Source image not selectable in v1 API;\nclusters are always created with latest supported ContainerVM image.\nNote that using an unsupported image (i.e. not ContainerVM) would\nresult in an unusable cluster in most cases anyway.</li>\n<li>Added <code translate=\"no\" dir=\"ltr\">--no-enable-cloud-monitoring</code> to turn off cloud monitoring\n(on by default).</li>\n<li>Added <code translate=\"no\" dir=\"ltr\">--disk-size</code> option for specifying boot disk size of node vms.</li>\n</ul>\n</li>\n<li>\n<p>App Engine components updated to 1.9.24.</p>\n\n<p>For several months on the Managed VMs team we've been testing a new mode of\n<code translate=\"no\" dir=\"ltr\">dockerless</code> local development on gcloud that makes developing a module for\nPython, Java and Go users similar to development of regular App Engine\napplications. This new mode relaxes the sandbox constraints present in the\ndevappserver for <code translate=\"no\" dir=\"ltr\">vm: false</code> applications, and does not require Docker to be\ninstalled.</p>\n\n<p>You can currently opt-into this behavior by setting GAE_LOCAL_VM_RUNTIME=1;\nIn this release of the Cloud SDK, we will be making this behavior the\ndefault for Managed VM users who are using gcloud.</p>\n\n<p>You can still opt-out of this behavior by setting: GAE_LOCAL_VM_RUNTIME=0.</p>\n\n<p>For custom runtime users, if you are relying on the local Development Server\nto build your application, will now need to pass the <code translate=\"no\" dir=\"ltr\">--custom-entrypoint</code>\nflag to <code translate=\"no\" dir=\"ltr\">gcloud preview app run</code> to provide gcloud with the correct\ncommand to call.</p>\n\n<p>This does not affect users developing for non-managed VMs, or for users who\nare not using gcloud.\"</p>\n</li>\n<li>\n<p>Bug fixes for:</p>\n\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> file paths issue on Windows.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups managed wait-until-stable</code> periodic user\nprompting for target zone.</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2015-07-29T00:00:00+00:00"
+    },
+    {
+      "id": "0970_2015-07-22",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0970_2015-07-22",
+      "title": "0.9.70 (2015-07-22)",
+      "content_html": "<ul>\n<li>Add <code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups</code> commands.</li>\n<li>Move <code translate=\"no\" dir=\"ltr\">gcloud beta deployment-manager</code> commands to general availability as\n<code translate=\"no\" dir=\"ltr\">gcloud deployment-manager</code> and update to use the v2beta3 API. This change\ndoes not alter the gcloud surface for users of the deployment-manager\ncomponent.</li>\n<li>Update kubectl to 1.0.0.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics</code> commands now use the genomics V1 API. The\n--project-number flag for <code translate=\"no\" dir=\"ltr\">dataset create</code> and <code translate=\"no\" dir=\"ltr\">dataset list</code> is now\nobsolete. The configured --project-id is used instead and can be overridden\nwith the --project-id flag.</li>\n<li>Fix hang on errors in <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code>.</li>\n</ul>",
+      "date_published": "2015-07-22T00:00:00+00:00"
+    },
+    {
+      "id": "0969_2015-07-15",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0969_2015-07-15",
+      "title": "0.9.69 (2015-07-15)",
+      "content_html": "<ul>\n<li>Update kubectl to 0.20.2.</li>\n<li>Fix an authentication issue with 'gcloud docker' affecting docker version\n1.7.0 and later.</li>\n<li>Remove <code translate=\"no\" dir=\"ltr\">gcloud preview dm-v2</code> command group.</li>\n<li>Remove <code translate=\"no\" dir=\"ltr\">gcloud preview deployment-manager</code> command group\n(<code translate=\"no\" dir=\"ltr\">gcloud beta deployment-manager</code> still exists; see\n<a href=\"https://cloud.google.com/sdk/#install-version\">https://cloud.google.com/sdk/#install-version</a> if you want to pin your\ninstallation to an old version).</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-07-15T00:00:00+00:00"
+    },
+    {
+      "id": "0968_2015-07-08",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0968_2015-07-08",
+      "title": "0.9.68 (2015-07-08)",
+      "content_html": "<ul>\n<li>Deprecated gcutil tool is no longer distributed with Cloud SDK.\nIt is still available via <a href=\"https://cloud.google.com/compute/docs/gcutil\">https://cloud.google.com/compute/docs/gcutil</a>.</li>\n<li>Added support for Container engine BETA commands under the\n<code translate=\"no\" dir=\"ltr\">gcloud beta container</code> command group.  Existing <code translate=\"no\" dir=\"ltr\">gcloud alpha container</code>\ncommands are unchanged.</li>\n<li>The standalone App Engine SDKs are no longer distributed through the Cloud\nSDK.\n<ul>\n<li>App Engine functionality can still be used through the\n<code translate=\"no\" dir=\"ltr\">gcloud preview app</code> command group.</li>\n<li>The gae-java, gae-python, gae-php, and gae-go components no longer\n exist in the component manager.</li>\n<li>If you need to use appcfg or dev_appserver directly, these are still\n available in the App Engine SDK downloads that can be found here:\n <a href=\"https://cloud.google.com/appengine/downloads\">https://cloud.google.com/appengine/downloads</a>\n</li>\n</ul>\n</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-07-08T00:00:00+00:00"
+    },
+    {
+      "id": "0967_2015-07-01",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0967_2015-07-01",
+      "title": "0.9.67 (2015-07-01)",
+      "content_html": "<ul>\n<li>App Engine components updated to 1.9.23.</li>\n<li>Added the \"gen-config\" command to app surface to generate configuration\nfiles for node.js apps.</li>\n<li>New <code translate=\"no\" dir=\"ltr\">compute instance-groups unmanaged</code> commands group for Instance Groups\nwhich are not managed by Instance Group Manager</li>\n<li>Moved <code translate=\"no\" dir=\"ltr\">gcloud beta sql instances connect</code> to <code translate=\"no\" dir=\"ltr\">gcloud beta sql connect</code>.</li>\n<li>Smarter polling while waiting for SQL operations to finish, reducing the\nnumber of requests sent to the server.</li>\n<li>Linux/Mac install script disables prompts if there is no controlling tty.</li>\n<li>Linux/Mac install script now properly detects zsh and ksh RC files.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-07-01T00:00:00+00:00"
+    },
+    {
+      "id": "0966_2015-06-24",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0966_2015-06-24",
+      "title": "0.9.66 (2015-06-24)",
+      "content_html": "<ul>\n<li>New commands\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha compute instances set-machine-type</code> for managing types</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud topic</code> for supplementary help topics.</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud deployment-manager deployments delete</code> prompt defaults to false.</li>\n</ul>",
+      "date_published": "2015-06-24T00:00:00+00:00"
+    },
+    {
+      "id": "0965_2015-06-17",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0965_2015-06-17",
+      "title": "0.9.65 (2015-06-17)",
+      "content_html": "<ul>\n<li>Fixes <code translate=\"no\" dir=\"ltr\">reset-windows-password</code> on Windows if <code translate=\"no\" dir=\"ltr\">openssl</code> is present on the\npath.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute reset-windows-password</code> is now available as a GA command.</li>\n<li>Prevent creation of a user that matches the machine name on Windows.</li>\n<li>gsutil now runs properly from not-default drive letters on Windows.</li>\n<li>kubectl updated to 0.18.1.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview docker</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud docker</code>.</li>\n</ul>",
+      "date_published": "2015-06-17T00:00:00+00:00"
+    },
+    {
+      "id": "0964_2015-06-10",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0964_2015-06-10",
+      "title": "0.9.64 (2015-06-10)",
+      "content_html": "<ul>\n<li>New commands\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute scp</code> for secure copy.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics</code> commands (on datasets).</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha source list</code> to lists project repositories.</li>\n</ul>\n</li>\n<li>kubectl will no longer be installed by default.</li>\n<li>Bug fixes for HTTPS load balancing.</li>\n<li>The help pager is $PAGER or less(1) if available, otherwise a builtin pager.</li>\n<li>Update of gsutil component to version 4.13.</li>\n</ul>",
+      "date_published": "2015-06-10T00:00:00+00:00"
+    },
+    {
+      "id": "0963_2015-06-03",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0963_2015-06-03",
+      "title": "0.9.63 (2015-06-03)",
+      "content_html": "<ul>\n<li>2x faster command load times.</li>\n<li>Fix to allow <code translate=\"no\" dir=\"ltr\">preview app</code> to use oauth service accounts\n<a href=\"https://issuetracker.google.com/issues/35906214\">https://issuetracker.google.com/issues/35906214</a>\n</li>\n</ul>",
+      "date_published": "2015-06-03T00:00:00+00:00"
+    },
+    {
+      "id": "0962_2015-05-27",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0962_2015-05-27",
+      "title": "0.9.62 (2015-05-27)",
+      "content_html": "<ul>\n<li>Not released.</li>\n</ul>",
+      "date_published": "2015-05-27T00:00:00+00:00"
+    },
+    {
+      "id": "0961_2015-05-20",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0961_2015-05-20",
+      "title": "0.9.61 (2015-05-20)",
+      "content_html": "<ul>\n<li>New kubectl component (installed by default)</li>\n<li>Internal improvements to gcloud preview app deploy; includes changes to\ncommand output.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview projects</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud alpha projects</code>\n</li>\n<li>Tab completion for <code translate=\"no\" dir=\"ltr\">gcloud compute ssh</code>\n</li>\n</ul>",
+      "date_published": "2015-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "0960_2015-05-13",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0960_2015-05-13",
+      "title": "0.9.60 (2015-05-13)",
+      "content_html": "<ul>\n<li>VPN moved to GA.</li>\n<li>Preemptible VM support.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-05-13T00:00:00+00:00"
+    },
+    {
+      "id": "0959_2015-05-06",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0959_2015-05-06",
+      "title": "0.9.59 (2015-05-06)",
+      "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-05-06T00:00:00+00:00"
+    },
+    {
+      "id": "0958_2015-04-29",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0958_2015-04-29",
+      "title": "0.9.58 (2015-04-29)",
+      "content_html": "<ul>\n<li>gcloud alpha bigquery launch.</li>\n<li>Better error reporting in Customer Supplied Encryption Key files.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-04-29T00:00:00+00:00"
+    },
+    {
+      "id": "0957_2015-04-22",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0957_2015-04-22",
+      "title": "0.9.57 (2015-04-22)",
+      "content_html": "<ul>\n<li>gcloud beta deployment-manager launch.</li>\n<li>gcloud app new deployment behavior.\n<ul>\n<li>deploy and run commands no longer take directories, only take a list of\nexplicit yaml files.</li>\n</ul>\n</li>\n<li>gcloud beta compute reset-windows-password, support for new authentication\nscheme on Windows guest agent versions 3.0.0.0 and later.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-04-22T00:00:00+00:00"
+    },
+    {
+      "id": "0956_2015-04-15",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0956_2015-04-15",
+      "title": "0.9.56 (2015-04-15)",
+      "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-04-15T00:00:00+00:00"
+    },
+    {
+      "id": "0955_2015-04-8",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0955_2015-04-8",
+      "title": "0.9.55 (2015-04-8)",
+      "content_html": "<ul>\n<li>New and improved gcloud dns surface including:\n<ul>\n<li>Transactions for scriptable editing of record-sets.</li>\n<li>Importing record-sets from zone files and yaml files.</li>\n<li>Exporting record-sets to zone files and yaml files.</li>\n</ul>\n</li>\n<li>VPN commands surfaced under gcloud compute.</li>\n<li>Dataflow CLI commands launched under gcloud alpha!</li>\n</ul>",
+      "date_published": "2015-04-08T00:00:00+00:00"
+    },
+    {
+      "id": "0952_2015-03-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0952_2015-03-18",
+      "title": "0.9.52 (2015-03-18)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2015-03-18T00:00:00+00:00"
+    },
+    {
+      "id": "0951_2015-03-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0951_2015-03-11",
+      "title": "0.9.51 (2015-03-11)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2015-03-11T00:00:00+00:00"
+    },
+    {
+      "id": "0950_2015-03-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0950_2015-03-04",
+      "title": "0.9.50 (2015-03-04)",
+      "content_html": "<ul>\n<li>Introducing the <code translate=\"no\" dir=\"ltr\">gcloud beta ...</code> command group\n<ul>\n<li>Existing gcloud commands will be replicated under this new group, but\nuse the beta version of their API instead of the GA version.</li>\n<li>New command behavior and features that are beta only will first appear\nunder this group until the feature gets promoted to general\navailability.</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update beta</code> to access the new commands, or it\nwill be automatically installed for you on first run attempt.</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute ...</code> is now available, using the compute 'beta' API.\nCloud VPN.  See <a href=\"https://cloud.google.com/compute/docs/vpn\">https://cloud.google.com/compute/docs/vpn</a>\nfor details.</li>\n<li>Release of <code translate=\"no\" dir=\"ltr\">gcloud compute instances move</code> and <code translate=\"no\" dir=\"ltr\">gcloud compute disks move</code>.</li>\n</ul>",
+      "date_published": "2015-03-04T00:00:00+00:00"
+    },
+    {
+      "id": "0949_2015-02-25",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0949_2015-02-25",
+      "title": "0.9.49 (2015-02-25)",
+      "content_html": "<ul>\n<li>The Google Container Registry is now used by default for deployment of\nManaged VM applications. See here for more information:\n<a href=\"https://cloud.google.com/tools/container-registry/\">https://cloud.google.com/tools/container-registry/</a>\n</li>\n<li>We've increased the speed of the \"image push\" phase of Managed VM\ndeployments.</li>\n<li>The heavy lifting of retrieving the Go toolchain has been moved into the\nbase Go Docker image which dramatically reduces the bandwidth consumed\nlocally when running and deploying your images. You must delete your\nDockerfile to pick up the changes.</li>\n<li>We've fixed several bugs related to port forwarding in the local\ndevappserver.</li>\n</ul>",
+      "date_published": "2015-02-25T00:00:00+00:00"
+    },
+    {
+      "id": "0948_2015-02-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0948_2015-02-18",
+      "title": "0.9.48 (2015-02-18)",
+      "content_html": "<ul>\n<li>A bug fix for running setup-managed-vms multiple times when using the Google\nContainer Registry</li>\n</ul>",
+      "date_published": "2015-02-18T00:00:00+00:00"
+    },
+    {
+      "id": "0947_2015-02-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0947_2015-02-11",
+      "title": "0.9.47 (2015-02-11)",
+      "content_html": "<ul>\n<li>Bug fixes that allow tab completion to work for components in preview.</li>\n<li>GCloud now auto installs components based on command execution.</li>\n</ul>",
+      "date_published": "2015-02-11T00:00:00+00:00"
+    },
+    {
+      "id": "0946_2015-02-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0946_2015-02-04",
+      "title": "0.9.46 (2015-02-04)",
+      "content_html": "<ul>\n<li>We've made significant improvements to the stability and speed of deploying\nManaged VMs by leveraging the new Google Container Registry. See this post\nfor details on how to try it out today:\n<a href=\"https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM\">https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM</a>\n</li>\n</ul>",
+      "date_published": "2015-02-04T00:00:00+00:00"
+    },
+    {
+      "id": "0945_2015-01-28",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0945_2015-01-28",
+      "title": "0.9.45 (2015-01-28)",
+      "content_html": "<ul>\n<li>Several bug fixes in the Dockerfile generated for the 'go' runtime. Delete\nthe Dockerfile in your application directory and the Cloud SDK will copy the\nupdated Dockerfile on your next deployment.</li>\n<li>Several bug fixes related to flakiness in the setup-managed-vms command.</li>\n</ul>",
+      "date_published": "2015-01-28T00:00:00+00:00"
+    },
+    {
+      "id": "0944_2015-01-21",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0944_2015-01-21",
+      "title": "0.9.44 (2015-01-21)",
+      "content_html": "<ul>\n<li>Fixes applied to the google/appengine-gobase image for managed VMs.</li>\n<li>Tab completion for gcloud SQL commands.</li>\n</ul>",
+      "date_published": "2015-01-21T00:00:00+00:00"
+    },
+    {
+      "id": "0943_2015-01-14",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0943_2015-01-14",
+      "title": "0.9.43 (2015-01-14)",
+      "content_html": "<ul>\n<li>Support added for authenticating service accounts with JSON keys. If using\nJSON keys, PyOpenSSL is no longer a dependency. Refer to help docs here:\n<a href=\"https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account\">https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account</a>.</li>\n</ul>",
+      "date_published": "2015-01-14T00:00:00+00:00"
+    },
+    {
+      "id": "0942_2015-01-08",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0942_2015-01-08",
+      "title": "0.9.42 (2015-01-08)",
+      "content_html": "<ul>\n<li>Support for local SSDs in instance templates for gcloud compute.</li>\n</ul>",
+      "date_published": "2015-01-08T00:00:00+00:00"
+    }
+  ],
+  "next_url": "https://okonomi.github.io/google-cloud-sdk-releases/feeds/13.json"
+}
