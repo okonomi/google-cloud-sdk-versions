@@ -1,4 +1,4 @@
-# Google Cloud SDK release notes feed
+# Google Cloud SDK Release Notes feed
 
 RSS Feed for Google Cloud SDK release notes.
 
