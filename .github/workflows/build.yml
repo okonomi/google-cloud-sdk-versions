@@ -1,6 +1,8 @@
 name: Build
 
 on:
+  schedule:
+    - cron: "43 3 * * *"
   push:
     branches: [ "main" ]
   pull_request:
@@ -26,5 +28,6 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
+        git branch
         git commit -am "Generate feed" || true
         git push
