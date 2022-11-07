@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Google Cloud SDK Release Notes",
-  "home_page_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/",
-  "feed_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feed.json",
+  "title": "Google Cloud CLI Release Notes",
+  "home_page_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/",
+  "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
       "id": "23900_2019-03-19",
@@ -215,5 +215,5 @@
       "date_published": "2018-07-31T00:00:00+00:00"
     }
   ],
-  "next_url": "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feeds/7.json"
+  "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/7.json"
 }
