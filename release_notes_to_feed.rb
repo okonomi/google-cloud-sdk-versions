@@ -64,9 +64,9 @@ end
 
 feed = {
   version: "https://jsonfeed.org/version/1.1",
-  title: "Google Cloud SDK Release Notes",
-  home_page_url: "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/",
-  feed_url: "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feed.json",
+  title: "Google Cloud CLI Release Notes",
+  home_page_url: "https://okonomi.github.io/google-cloud-cli-release-notes-feed/",
+  feed_url: "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   items: releases.map(&:to_feed_item)
 }
 

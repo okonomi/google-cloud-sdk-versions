@@ -13,7 +13,7 @@ json = $stdin.read
 feed = JSON.parse(json, symbolize_names: true)
 feed[:items] = feed[:items].slice(30 * page, 30)
 if next_page < page_count
-  feed[:next_url] = "https://okonomi.github.io/google-cloud-sdk-release-notes-feed/feeds/#{next_page}.json"
+  feed[:next_url] = "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/#{next_page}.json"
 end
 
 puts feed.to_json
