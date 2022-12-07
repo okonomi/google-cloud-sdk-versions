@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0944_2015-01-21",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0944_2015-01-21",
+      "title": "0.9.44 (2015-01-21)",
+      "content_html": "<ul>\n<li>Fixes applied to the google/appengine-gobase image for managed VMs.</li>\n<li>Tab completion for gcloud SQL commands.</li>\n</ul>",
+      "date_published": "2015-01-21T00:00:00+00:00"
+    },
+    {
       "id": "0943_2015-01-14",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0943_2015-01-14",
       "title": "0.9.43 (2015-01-14)",
@@ -206,13 +213,6 @@
       "title": "0.9.14 (2013-12-17)",
       "content_html": "<ul>\n<li>'gcloud sql' now available.\n<ul>\n<li>Find out more: <a href=\"https://developers.google.com/cloud-sql/docs/cloud-sdk\">https://developers.google.com/cloud-sql/docs/cloud-sdk</a>\n</li>\n</ul>\n</li>\n<li>Added bash completion for gcloud commands.\n<ul>\n<li>Choose 'yes' at the prompt during installation to add it to your bash\nprofile.</li>\n</ul>\n</li>\n<li>Added 'gcloud version' command.</li>\n<li>More flexible support of virtual env installations.</li>\n<li>Fix for environments with protobuf installed.</li>\n</ul>",
       "date_published": "2013-12-17T00:00:00+00:00"
-    },
-    {
-      "id": "09131_2013-12-04",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#09131_2013-12-04",
-      "title": "0.9.13.1 (2013-12-04)",
-      "content_html": "<ul>\n<li>Validate queries to metadata server.</li>\n</ul>",
-      "date_published": "2013-12-04T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
