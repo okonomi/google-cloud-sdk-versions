@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0915_2014-01-15",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0915_2014-01-15",
+      "title": "0.9.15 (2014-01-15)",
+      "content_html": "<ul>\n<li>Updated gsutil to 3.40</li>\n<li>Updated all App Engine tools to 1.8.9</li>\n<li>Fixed broken PHP runtimes on Mac and Windows installs when running\nthe dev_appserver.</li>\n<li>Adding sh/cmd wrapper scripts for bq, gcutil, and gsutil for better PATH\nhandling on Windows.</li>\n<li>Fixed issue with failing <code translate=\"no\" dir=\"ltr\">goapp build</code>\n</li>\n</ul>",
+      "date_published": "2014-01-15T00:00:00+00:00"
+    },
+    {
       "id": "0914_2013-12-17",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0914_2013-12-17",
       "title": "0.9.14 (2013-12-17)",

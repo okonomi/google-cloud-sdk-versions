@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0978_2015-09-16",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0978_2015-09-16",
+      "title": "0.9.78 (2015-09-16)",
+      "content_html": "<ul>\n<li>App Engine components updated to 1.9.26.</li>\n<li>Increase the default boot disk size for remote build VMs in\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code>.</li>\n<li>The <code translate=\"no\" dir=\"ltr\">--instance</code> flag to the <code translate=\"no\" dir=\"ltr\">gcloud preview app modules set-managed-by</code>\ncommand now takes an instance name instead of an index.</li>\n<li>The V1Beta4 API for sqladmin can now be accessed through the\n<code translate=\"no\" dir=\"ltr\">gcloud beta sql</code> surface.</li>\n<li>Usability enhancements for <code translate=\"no\" dir=\"ltr\">gcloud beta init</code> and named configurations.</li>\n</ul>",
+      "date_published": "2015-09-16T00:00:00+00:00"
+    },
+    {
       "id": "0977_2015-09-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0977_2015-09-09",
       "title": "0.9.77 (2015-09-09)",
@@ -206,13 +213,6 @@
       "title": "0.9.47 (2015-02-11)",
       "content_html": "<ul>\n<li>Bug fixes that allow tab completion to work for components in preview.</li>\n<li>GCloud now auto installs components based on command execution.</li>\n</ul>",
       "date_published": "2015-02-11T00:00:00+00:00"
-    },
-    {
-      "id": "0946_2015-02-04",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0946_2015-02-04",
-      "title": "0.9.46 (2015-02-04)",
-      "content_html": "<ul>\n<li>We've made significant improvements to the stability and speed of deploying\nManaged VMs by leveraging the new Google Container Registry. See this post\nfor details on how to try it out today:\n<a href=\"https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM\">https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM</a>\n</li>\n</ul>",
-      "date_published": "2015-02-04T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
