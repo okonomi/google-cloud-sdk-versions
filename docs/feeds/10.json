@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "13701_2016-12-08",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#13701_2016-12-08",
+      "title": "137.0.1 (2016-12-08)",
+      "content_html": "<h3 id=\"google_cloud_ml_8\" data-text=\"Google Cloud ML\">Google Cloud ML</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta ml jobs submit training</code>: Fix crash when <code translate=\"no\" dir=\"ltr\">--packages</code> was not\nspecified.</li>\n</ul>",
+      "date_published": "2016-12-08T00:00:00+00:00"
+    },
+    {
       "id": "13700_2016-12-07",
       "url": "https://cloud.google.com/sdk/docs/release-notes#13700_2016-12-07",
       "title": "137.0.0 (2016-12-07)",
@@ -206,13 +213,6 @@
       "title": "109.0.0 (2016-05-11)",
       "content_html": "<h3 id=\"google_app_engine_53\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>Google App Engine components updated to 1.9.37.\n<ul>\n<li>Please visit the following release notes for details:\n<ul>\n<li>Python - https://cloud.google.com/appengine/docs/standard/python/release-notes</li>\n<li>Java - https://cloud.google.com/appengine/docs/standard/java/release-notes</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Fixed issue with failed uploads in gcloud preview app-deploy\n(https://issuetracker.google.com/issues/35906909).</li>\n<li>Deprecated --server flag for app commands; its use is unsupported.</li>\n</ul><h3 id=\"google_compute_engine_58\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>Removed the <code translate=\"no\" dir=\"ltr\">gcloud alpha compute autoscaler</code> command group.</li>\n<li>Removed deprecated <code translate=\"no\" dir=\"ltr\">gcloud compute backend-services add-backend</code> --group\nflag in favor of --instance-group.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute copy-files</code> now exits with the return code of the called\n<code translate=\"no\" dir=\"ltr\">scp</code> process.</li>\n<li>Added support for customer-supplied encryption keys to the\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute disks snapshot</code> command.</li>\n<li>Remove google-containers from default gcloud public image project.</li>\n</ul><h3 id=\"google_container_engine_49\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Fixed bug listing clusters with no node pools.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud container resize</code> command now supports multi-zone clusters.</li>\n</ul><h3 id=\"google_error_reporting\" data-text=\"Google Error Reporting\">Google Error Reporting</h3><ul>\n<li>Added the <code translate=\"no\" dir=\"ltr\">gcloud beta error-reporting events delete</code> command to cleanup\nStackdriver Error Reporting data.</li>\n</ul>",
       "date_published": "2016-05-11T00:00:00+00:00"
-    },
-    {
-      "id": "10800_2016-05-04",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#10800_2016-05-04",
-      "title": "108.0.0 (2016-05-04)",
-      "content_html": "<h3 id=\"breaking_changes_166\" data-text=\"Breaking Changes\">Breaking Changes</h3><ul>\n<li>The <code translate=\"no\" dir=\"ltr\">gcloud preview app modules get-logs</code> command is now deprecated. Please\nuse the new command <code translate=\"no\" dir=\"ltr\">gcloud preview app logs read</code> instead.</li>\n</ul><h3 id=\"google_app_engine_54\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>Fixed a bug which caused <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> to fail when run from a\ngit directory.</li>\n</ul><h3 id=\"google_cloud_sdk_12\" data-text=\"Google Cloud SDK\">Google Cloud SDK</h3><ul>\n<li><p>Deprecated user property files (~/.config/gcloud/properties) will no longer\nbe read by gcloud.  If you are not already using <code translate=\"no\" dir=\"ltr\">configurations</code>, your\nproperties will be automatically migrated for you.  No action is required on\nyour part.</p></li>\n<li><p>The <code translate=\"no\" dir=\"ltr\">--format</code> flag now supports four more transforms: <code translate=\"no\" dir=\"ltr\">extract</code>, <code translate=\"no\" dir=\"ltr\">join</code>,\n<code translate=\"no\" dir=\"ltr\">slice</code>, and <code translate=\"no\" dir=\"ltr\">split</code>.</p></li>\n</ul><h3 id=\"google_cloud_debugger_3\" data-text=\"Google Cloud Debugger\">Google Cloud Debugger</h3><ul>\n<li>Added the <code translate=\"no\" dir=\"ltr\">gcloud alpha debug snapshots wait</code> command.</li>\n</ul><h3 id=\"google_compute_engine_59\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>The <code translate=\"no\" dir=\"ltr\">gcloud alpha compute instance-groups managed list-instances</code> command\noutput now includes the <code translate=\"no\" dir=\"ltr\">INSTANCE_TEMPLATE</code> and <code translate=\"no\" dir=\"ltr\">STATUS</code> columns.</li>\n</ul><h3 id=\"google_container_engine_50\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Update kubectl to v1.2.3</li>\n</ul><h3 id=\"google_genomics_4\" data-text=\"Google Genomics\">Google Genomics</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics variants describe/delete/update</code> commands now accept\nnon-integer variant IDs.</li>\n</ul>",
-      "date_published": "2016-05-04T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/11.json"
