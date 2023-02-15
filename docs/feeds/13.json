@@ -5,6 +5,20 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0955_2015-04-8",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0955_2015-04-8",
+      "title": "0.9.55 (2015-04-8)",
+      "content_html": "<ul>\n<li>New and improved gcloud dns surface including:\n<ul>\n<li>Transactions for scriptable editing of record-sets.</li>\n<li>Importing record-sets from zone files and yaml files.</li>\n<li>Exporting record-sets to zone files and yaml files.</li>\n</ul>\n</li>\n<li>VPN commands surfaced under gcloud compute.</li>\n<li>Dataflow CLI commands launched under gcloud alpha!</li>\n</ul>",
+      "date_published": "2015-04-08T00:00:00+00:00"
+    },
+    {
+      "id": "0952_2015-03-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0952_2015-03-18",
+      "title": "0.9.52 (2015-03-18)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2015-03-18T00:00:00+00:00"
+    },
+    {
       "id": "0951_2015-03-11",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0951_2015-03-11",
       "title": "0.9.51 (2015-03-11)",
@@ -199,20 +213,6 @@
       "title": "0.9.23 (2014-05-01)",
       "content_html": "<ul>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud compute</code> tool for working with compute engine (RC)\n<ul>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update compute</code> to install</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud help compute</code> for more information</li>\n</ul>\n</li>\n<li>Updated all App Engine tools to 1.9.4</li>\n<li>Added color to error and warning messages (on Linux and Mac)\n<ul>\n<li>To disable, run <code translate=\"no\" dir=\"ltr\">gcloud config set disable_color true</code>\n</li>\n</ul>\n</li>\n</ul>",
       "date_published": "2014-05-01T00:00:00+00:00"
-    },
-    {
-      "id": "0922_2014-04-23",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0922_2014-04-23",
-      "title": "0.9.22 (2014-04-23)",
-      "content_html": "<ul>\n<li>New 'gcloud help command'\n<ul>\n<li>Displays man style extended help for commands (where available).</li>\n</ul>\n</li>\n<li>New 'gcloud auth activate-service-account' command\n<ul>\n<li>Used to authenticate with gcloud using a service account key file.</li>\n<li>See: <a href=\"https://developers.google.com/storage/docs/authentication#service_accounts\">https://developers.google.com/storage/docs/authentication#service_accounts</a>\n</li>\n</ul>\n</li>\n<li>Bug fixes and improved error handling.</li>\n</ul>",
-      "date_published": "2014-04-23T00:00:00+00:00"
-    },
-    {
-      "id": "0921_2014-04-09",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0921_2014-04-09",
-      "title": "0.9.21 (2014-04-09)",
-      "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
-      "date_published": "2014-04-09T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
