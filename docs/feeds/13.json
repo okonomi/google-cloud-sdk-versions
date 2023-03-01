@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0956_2015-04-15",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0956_2015-04-15",
+      "title": "0.9.56 (2015-04-15)",
+      "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-04-15T00:00:00+00:00"
+    },
+    {
       "id": "0955_2015-04-8",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0955_2015-04-8",
       "title": "0.9.55 (2015-04-8)",
@@ -206,13 +213,6 @@
       "title": "0.9.24 (2014-05-07)",
       "content_html": "<ul>\n<li>gcloud now has App Engine and Cloud Datastore integration.\n<ul>\n<li>Commands can be found under <code translate=\"no\" dir=\"ltr\">gcloud preview app</code> and <code translate=\"no\" dir=\"ltr\">gcloud preview\ndatastore</code>\n</li>\n</ul>\n</li>\n</ul>",
       "date_published": "2014-05-07T00:00:00+00:00"
-    },
-    {
-      "id": "0923_2014-05-01",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0923_2014-05-01",
-      "title": "0.9.23 (2014-05-01)",
-      "content_html": "<ul>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud compute</code> tool for working with compute engine (RC)\n<ul>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update compute</code> to install</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud help compute</code> for more information</li>\n</ul>\n</li>\n<li>Updated all App Engine tools to 1.9.4</li>\n<li>Added color to error and warning messages (on Linux and Mac)\n<ul>\n<li>To disable, run <code translate=\"no\" dir=\"ltr\">gcloud config set disable_color true</code>\n</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2014-05-01T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
