@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0987_2015-11-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0987_2015-11-18",
+      "title": "0.9.87 (2015-11-18)",
+      "content_html": "<h3 id=\"compute_3\" data-text=\"Compute\">Compute</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha compute instances create</code> now supports --custom-cpu and\n--custom-memory flags to specify custom machine types.</li>\n</ul><h3 id=\"dataproc\" data-text=\"Dataproc\">Dataproc</h3><ul>\n<li>Added <code translate=\"no\" dir=\"ltr\">gcloud beta dataproc clusters diagnose</code> command. See\n<a href=\"https://cloud.google.com/dataproc/support/diagnose-command\">https://cloud.google.com/dataproc/support/diagnose-command</a> for more info.</li>\n</ul><h3 id=\"google_container_engine_61\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Updated kubectl to version 1.1.1.</li>\n</ul>",
+      "date_published": "2015-11-18T00:00:00+00:00"
+    },
+    {
       "id": "0986_2015-11-11",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0986_2015-11-11",
       "title": "0.9.86 (2015-11-11)",
@@ -206,13 +213,6 @@
       "title": "0.9.58 (2015-04-29)",
       "content_html": "<ul>\n<li>gcloud alpha bigquery launch.</li>\n<li>Better error reporting in Customer Supplied Encryption Key files.</li>\n<li>Bug fixes.</li>\n</ul>",
       "date_published": "2015-04-29T00:00:00+00:00"
-    },
-    {
-      "id": "0957_2015-04-22",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0957_2015-04-22",
-      "title": "0.9.57 (2015-04-22)",
-      "content_html": "<ul>\n<li>gcloud beta deployment-manager launch.</li>\n<li>gcloud app new deployment behavior.\n<ul>\n<li>deploy and run commands no longer take directories, only take a list of\nexplicit yaml files.</li>\n</ul>\n</li>\n<li>gcloud beta compute reset-windows-password, support for new authentication\nscheme on Windows guest agent versions 3.0.0.0 and later.</li>\n<li>Bug fixes.</li>\n</ul>",
-      "date_published": "2015-04-22T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
