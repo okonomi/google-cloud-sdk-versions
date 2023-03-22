@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0926_2014-06-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0926_2014-06-04",
+      "title": "0.9.26 (2014-06-04)",
+      "content_html": "<ul>\n<li>Windows support for SSH and SCP to Compute VMs\n<ul>\n<li>The following will now work natively on Windows without the need for\ncygwin:\n<ul>\n<li>gcloud compute ssh</li>\n<li>gcloud compute copy-files</li>\n<li>gcutil ssh</li>\n<li>gcutil push</li>\n<li>gcutil pull</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Support for Java apps in 'gcloud preview app run'</li>\n<li>Updated gsutil to 4.1</li>\n<li>Updated gcutil to 1.16.0</li>\n<li>Updated all App Engine tools to 1.9.6</li>\n</ul>",
+      "date_published": "2014-06-04T00:00:00+00:00"
+    },
+    {
       "id": "0925_2014-05-21",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0925_2014-05-21",
       "title": "0.9.25 (2014-05-21)",
