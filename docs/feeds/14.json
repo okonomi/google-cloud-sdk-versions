@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0929_2014-08-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0929_2014-08-11",
+      "title": "0.9.29 (2014-08-11)",
+      "content_html": "<ul>\n<li>The compute component is now in General Availability.\n<ul>\n<li>Added new 'compute/zone' and 'compute/region' properties that\ncan be used to set a default zone and region. To set the\nproperties, run 'gcloud config set compute/zone ZONE' and 'gcloud\nconfig set compute/region REGION'.</li>\n<li>Added support for overriding disk auto-deletion during instance\ndeletion.</li>\n<li>Updated the output of commands that mutate resources to be more\nhuman-friendly. The --format flag can be used for more verbose\noutput.</li>\n<li>Replaced all 'get' subcommands with 'describe' subcommands (e.g.,\n'gcloud compute instances get' has been replaced with 'gcloud\ncompute instances describe').</li>\n<li>Renamed the 'firewalls' collection to 'firewall-rules'.</li>\n<li>Added support to the 'addresses' collection for interacting with\nglobal addresses.</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2014-08-11T00:00:00+00:00"
+    },
+    {
       "id": "0928_2014-07-18",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0928_2014-07-18",
       "title": "0.9.28 (2014-07-18)",
@@ -206,13 +213,7 @@
       "title": "0.9.1 (2013-04-10)",
       "content_html": "<ul>\n<li>Fixed an issue with gauth that occurred when running a command before\ncredentials were created.</li>\n</ul>",
       "date_published": "2013-04-10T00:00:00+00:00"
-    },
-    {
-      "id": "090_2013-04-09",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#090_2013-04-09",
-      "title": "0.9.0 (2013-04-09)",
-      "content_html": "<ul>\n<li>Developer preview release of the Cloud SDK</li>\n<li>Includes command line tools for:\n<ul>\n<li>App Engine</li>\n<li>BigQuery</li>\n<li>Compute Engine</li>\n<li>Cloud Storage</li>\n<li>Cloud SQL</li>\n</ul>\n</li>\n<li>Includes the new gauth tool for one time common authentication for all tools</li>\n</ul>",
-      "date_published": "2013-04-09T00:00:00+00:00"
     }
-  ]
+  ],
+  "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
 }
