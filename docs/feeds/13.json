@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0965_2015-06-17",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0965_2015-06-17",
+      "title": "0.9.65 (2015-06-17)",
+      "content_html": "<ul>\n<li>Fixes <code translate=\"no\" dir=\"ltr\">reset-windows-password</code> on Windows if <code translate=\"no\" dir=\"ltr\">openssl</code> is present on the\npath.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute reset-windows-password</code> is now available as a GA command.</li>\n<li>Prevent creation of a user that matches the machine name on Windows.</li>\n<li>gsutil now runs properly from not-default drive letters on Windows.</li>\n<li>kubectl updated to 0.18.1.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview docker</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud docker</code>.</li>\n</ul>",
+      "date_published": "2015-06-17T00:00:00+00:00"
+    },
+    {
       "id": "0964_2015-06-10",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0964_2015-06-10",
       "title": "0.9.64 (2015-06-10)",
@@ -206,13 +213,6 @@
       "title": "0.9.33 (2014-09-30)",
       "content_html": "<ul>\n<li>Overhaul of 'gcloud sql'\n<ul>\n<li>Updated the output for all commands.</li>\n<li>Updated usage for 'gcloud sql ssl-certs create'.</li>\n</ul>\n</li>\n</ul>",
       "date_published": "2014-09-30T00:00:00+00:00"
-    },
-    {
-      "id": "0932_2014-09-16",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0932_2014-09-16",
-      "title": "0.9.32 (2014-09-16)",
-      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
-      "date_published": "2014-09-16T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
