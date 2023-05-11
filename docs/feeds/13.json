@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0966_2015-06-24",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0966_2015-06-24",
+      "title": "0.9.66 (2015-06-24)",
+      "content_html": "<ul>\n<li>New commands\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha compute instances set-machine-type</code> for managing types</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud topic</code> for supplementary help topics.</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud deployment-manager deployments delete</code> prompt defaults to false.</li>\n</ul>",
+      "date_published": "2015-06-24T00:00:00+00:00"
+    },
+    {
       "id": "0965_2015-06-17",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0965_2015-06-17",
       "title": "0.9.65 (2015-06-17)",
@@ -206,13 +213,6 @@
       "title": "0.9.34 (2014-10-14)",
       "content_html": "<ul>\n<li>Added support for Google Compute Engine Instance Templates in\ncompute component.</li>\n<li>Launch of instance-groups and managed-instance-groups in\npreview component.</li>\n</ul>",
       "date_published": "2014-10-14T00:00:00+00:00"
-    },
-    {
-      "id": "0933_2014-09-30",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0933_2014-09-30",
-      "title": "0.9.33 (2014-09-30)",
-      "content_html": "<ul>\n<li>Overhaul of 'gcloud sql'\n<ul>\n<li>Updated the output for all commands.</li>\n<li>Updated usage for 'gcloud sql ssl-certs create'.</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2014-09-30T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"

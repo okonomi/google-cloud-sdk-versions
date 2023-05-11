@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "094_2013-06-12",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#094_2013-06-12",
+      "title": "0.9.4 (2013-06-12)",
+      "content_html": "<ul>\n<li>archive file name changed to google-cloud-sdk</li>\n<li>Upgraded all App Engine tools to 1.8.1</li>\n<li>Upgraded gcutil to 1.8.1</li>\n<li>Upgraded gsutil to 3.31 (3.30 was never released)</li>\n<li>More improvements to gauth experience\n<ul>\n<li>gauth now provides links to the new Cloud Console (for obtaining your\nproject ID), as opposed to the API console</li>\n<li>Suppression of spurious error related to the Windows Registry</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2013-06-12T00:00:00+00:00"
+    },
+    {
       "id": "093_2013-05-24",
       "url": "https://cloud.google.com/sdk/docs/release-notes#093_2013-05-24",
       "title": "0.9.3 (2013-05-24)",
