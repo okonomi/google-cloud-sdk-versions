@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "12700_2016-09-21",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#12700_2016-09-21",
+      "title": "127.0.0 (2016-09-21)",
+      "content_html": "<h3 id=\"google_bigquery\" data-text=\"Google BigQuery\">Google BigQuery</h3><ul>\n<li>New load/query option in BigQuery client to support schema update within a\nload/query job.</li>\n<li>New query option in BigQuery client to specify query parameters in\nStandard SQL.</li>\n</ul><h3 id=\"google_cloud_dataproc_11\" data-text=\"Google Cloud Dataproc\">Google Cloud Dataproc</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters create</code> flag <code translate=\"no\" dir=\"ltr\">--preemptible-worker-boot-disk-size</code>\ncan be used to specify future preemptible VM boot disk size.</li>\n</ul><h3 id=\"google_container_engine_36\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Update kubectl to version 1.3.7.</li>\n</ul><h3 id=\"google_cloud_ml_14\" data-text=\"Google Cloud ML\">Google Cloud ML</h3><ul>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud beta ml predict</code> command to do online prediction.</li>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud beta ml jobs submit prediction</code> command to submit batch\nprediction job.</li>\n</ul><h3 id=\"google_cloud_sql_22\" data-text=\"Google Cloud SQL\">Google Cloud SQL</h3><ul>\n<li>New arguments to beta sql instances create/patch commands for Cloud SQL\nSecond Generation instances:\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">--storage-size</code> Sets storage size in GB.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-release-channel</code> Sets production or preview channel for\nmaintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-day</code> Sets day of week for maintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-hour</code> Sets hour of day for maintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-any</code> (patch only) Clears maintenance window setting.</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2016-09-21T00:00:00+00:00"
+    },
+    {
       "id": "12600_2016-09-14",
       "url": "https://cloud.google.com/sdk/docs/release-notes#12600_2016-09-14",
       "title": "126.0.0 (2016-09-14)",
@@ -206,13 +213,6 @@
       "title": "98.0.0 (2016-2-24)",
       "content_html": "<ul>\n<li>\n<p>Release 95.0.0 introduced a bug that generated corrupt keys for Windows gcloud\ncompute ssh|copy-files. Any keys generated on Windows between 95.0.0 and\n97.0.0 inclusive are rejected by ssh servers. <code translate=\"no\" dir=\"ltr\">gcloud compute</code> has been\nchanged to:</p>\n\n<ul>\n<li>Fix the winkeygen Windows key generator.</li>\n<li>Recognize corrupt Windows keys and automatically regenerate them.</li>\n</ul>\n</li>\n<li><p>Fixed <a href=\"https://issuetracker.google.com/issues/35906617\">#538</a>.\nUsers should no longer get \"gsutil ImportError: No module named google\"\nerrors.</p></li>\n</ul><h3 id=\"google_app_engine_64\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>MySqldb \"latest\" version changed from 1.24b4 to 1.2.5.</li>\n</ul><h3 id=\"emulators_13\" data-text=\"Emulators\">Emulators</h3><ul>\n<li>Improves Pub/Sub emulator's ability to handle requests concurrent with HTTP\npull requests.</li>\n<li>The Pub/Sub emulator attempts to detect and inform users when an unsupported\nAPI version is used.</li>\n<li>The Pub/Sub emulator now correctly handles absolute URIs in HTTP/Json\nrequests.</li>\n</ul><h3 id=\"windows_support\" data-text=\"Windows support\">Windows support</h3><ul>\n<li>Google Cloud SDK no longer needs Python installed when using the Windows\nInstaller. The SDK for Windows comes with Python bundled.</li>\n</ul>",
       "date_published": "2016-02-24T00:00:00+00:00"
-    },
-    {
-      "id": "9700_2016-2-17",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#9700_2016-2-17",
-      "title": "97.0.0 (2016-2-17)",
-      "content_html": "<h3 id=\"breaking_changes_185\" data-text=\"Breaking Changes\">Breaking Changes</h3><p><code translate=\"no\" dir=\"ltr\">gcloud alpha compute routers</code> now requires manual configuration of interfaces</p><h3 id=\"google_compute_engine_67\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>Added flag <code translate=\"no\" dir=\"ltr\">--advertised-route-priority</code> to <code translate=\"no\" dir=\"ltr\">gcloud alpha compute routers\ncreate</code>\n</li>\n<li>Added support for regional instance groups in alpha</li>\n</ul><h3 id=\"google_app_engine_65\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>Ruby runtime now uses the Rack \"deployment\" environment, instead of \"none\"</li>\n</ul><h3 id=\"google_container_engine_57\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Added <code translate=\"no\" dir=\"ltr\">--master</code> flag to <code translate=\"no\" dir=\"ltr\">gcloud container clusters upgrade</code>\n</li>\n</ul>",
-      "date_published": "2016-02-17T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/12.json"

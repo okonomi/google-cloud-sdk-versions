@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0968_2015-07-08",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0968_2015-07-08",
+      "title": "0.9.68 (2015-07-08)",
+      "content_html": "<ul>\n<li>Deprecated gcutil tool is no longer distributed with Cloud SDK.\nIt is still available via <a href=\"https://cloud.google.com/compute/docs/gcutil\">https://cloud.google.com/compute/docs/gcutil</a>.</li>\n<li>Added support for Container engine BETA commands under the\n<code translate=\"no\" dir=\"ltr\">gcloud beta container</code> command group.  Existing <code translate=\"no\" dir=\"ltr\">gcloud alpha container</code>\ncommands are unchanged.</li>\n<li>The standalone App Engine SDKs are no longer distributed through the Cloud\nSDK.\n<ul>\n<li>App Engine functionality can still be used through the\n<code translate=\"no\" dir=\"ltr\">gcloud preview app</code> command group.</li>\n<li>The gae-java, gae-python, gae-php, and gae-go components no longer\n exist in the component manager.</li>\n<li>If you need to use appcfg or dev_appserver directly, these are still\n available in the App Engine SDK downloads that can be found here:\n <a href=\"https://cloud.google.com/appengine/downloads\">https://cloud.google.com/appengine/downloads</a>\n</li>\n</ul>\n</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-07-08T00:00:00+00:00"
+    },
+    {
       "id": "0967_2015-07-01",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0967_2015-07-01",
       "title": "0.9.67 (2015-07-01)",
@@ -206,13 +213,6 @@
       "title": "0.9.36 (2014-11-12)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2014-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "0935_2014-11-04",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0935_2014-11-04",
-      "title": "0.9.35 (2014-11-04)",
-      "content_html": "<ul>\n<li>Added support for Google Container Engine. It is available under the\n'gcloud preview container' command group.</li>\n</ul>",
-      "date_published": "2014-11-04T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
