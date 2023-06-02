@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "18001_2017-11-20",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#18001_2017-11-20",
+      "title": "180.0.1 (2017-11-20)",
+      "content_html": "<ul>\n<li>Hotfix for <code translate=\"no\" dir=\"ltr\">gcloud compute project-info add-metadata/remove-metadata</code>\ncrashes.</li>\n</ul>",
+      "date_published": "2017-11-20T00:00:00+00:00"
+    },
+    {
       "id": "18000_2017-11-15",
       "url": "https://cloud.google.com/sdk/docs/release-notes#18000_2017-11-15",
       "title": "180.0.0 (2017-11-15)",
@@ -206,13 +213,6 @@
       "title": "154.0.1 (2017-05-04)",
       "content_html": "<h3 id=\"cloud_sdk_53\" data-text=\"Cloud SDK\">Cloud SDK</h3><ul>\n<li>Fixed issue in for gcloud init command. See https://issuetracker.google.com/37968909.</li>\n</ul>",
       "date_published": "2017-05-04T00:00:00+00:00"
-    },
-    {
-      "id": "15400_2017-05-03",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#15400_2017-05-03",
-      "title": "154.0.0 (2017-05-03)",
-      "content_html": "<h3 id=\"cloud_sdk_54\" data-text=\"Cloud SDK\">Cloud SDK</h3><ul>\n<li>Added support for project creation during the <code translate=\"no\" dir=\"ltr\">gcloud init</code> flow.</li>\n</ul><h3 id=\"google_cloud_logging_7\" data-text=\"Google Cloud Logging\">Google Cloud Logging</h3><ul>\n<li><p>BUG FIX: gcloud beta logging sinks update would remove any start time or end time from a sink</p></li>\n<li><p>gcloud beta logging sinks describe now reports values of start_time, end_time and include_children</p></li>\n<li><p>The <code translate=\"no\" dir=\"ltr\">--include-children</code> flag is now available for <code translate=\"no\" dir=\"ltr\">gcloud beta logging sinks create</code> to create sinks that apply to an organization or folder and also to all of its child projects and folders.</p></li>\n</ul><h3 id=\"google_compute_engine_25\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>Workaround problems with alpha and beta versions of compute ssh command fail an attempt to use clouduseraccounts APIs.</li>\n</ul><h3 id=\"google_container_engine_17\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li><p>Promote --cluster-version from beta to GA in gcloud container clusters create.</p></li>\n<li><p>'--no-source' flag for 'gcloud container builds submit' allows builds with no source input.</p></li>\n</ul><h3 id=\"google_cloud_ml_engine_2\" data-text=\"Google Cloud ML Engine\">Google Cloud ML Engine</h3><ul>\n<li>Added --config parameter to <code translate=\"no\" dir=\"ltr\">gcloud ml-engine versions create</code>; this parameter allows specifying scaling settings for a version.</li>\n</ul><h3 id=\"google_cloud_speech\" data-text=\"Google Cloud Speech\">Google Cloud Speech</h3><ul>\n<li>The <code translate=\"no\" dir=\"ltr\">gcloud ml speech</code> commands to recognize spoken words in recorded speech using the Cloud Speech API are now available in beta. Please run <code translate=\"no\" dir=\"ltr\">gcloud beta ml speech --help</code> or visit https://cloud.google.com/speech/docs/ to learn more.</li>\n</ul><h3 id=\"google_app_engine_25\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud beta app deploy</code> now attempts to use the Service Management API to enable the Appengine Flexible Environment API for Flexible deployments, if needed. Before deploying a Flexible app, please ensure that the Flexible Environment API is enabled on the app's project.</p></li>\n<li><p>The new Node.js Runtime Builder pipeline will now be used to deploy apps when using <code translate=\"no\" dir=\"ltr\">gcloud beta app deploy</code>.</p></li>\n</ul><h3 id=\"google_cloud_sql_13\" data-text=\"Google Cloud SQL\">Google Cloud SQL</h3><ul>\n<li>Promote <code translate=\"no\" dir=\"ltr\">gcloud sql operations</code> to GA. The beta surface still remains and is identical.</li>\n</ul><h3 id=\"google_cloud_source_repositories_5\" data-text=\"Google Cloud Source Repositories\">Google Cloud Source Repositories</h3><ul>\n<li>Add a source repos describe command to describe a repository to the beta track.</li>\n</ul>",
-      "date_published": "2017-05-03T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/10.json"

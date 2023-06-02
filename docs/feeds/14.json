@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0937_2014-11-19",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0937_2014-11-19",
+      "title": "0.9.37 (2014-11-19)",
+      "content_html": "<ul>\n<li>Added support for local SSD.</li>\n</ul>",
+      "date_published": "2014-11-19T00:00:00+00:00"
+    },
+    {
       "id": "0936_2014-11-12",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0936_2014-11-12",
       "title": "0.9.36 (2014-11-12)",
@@ -206,13 +213,6 @@
       "title": "0.9.9 (2013-09-26)",
       "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.5.</li>\n<li>Upgraded bq to 2.0.15.</li>\n<li>Upgraded gcutil to 1.8.4.</li>\n<li>Upgraded gsutil to 3.37.</li>\n</ul>",
       "date_published": "2013-09-26T00:00:00+00:00"
-    },
-    {
-      "id": "098_2013-08-27",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#098_2013-08-27",
-      "title": "0.9.8 (2013-08-27)",
-      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.4.</li>\n<li>Upgraded gcutil to 1.8.3.</li>\n<li>Upgraded gsutil to 3.35.</li>\n</ul>",
-      "date_published": "2013-08-27T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"

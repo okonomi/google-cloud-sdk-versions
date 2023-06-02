@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0970_2015-07-22",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0970_2015-07-22",
+      "title": "0.9.70 (2015-07-22)",
+      "content_html": "<ul>\n<li>Add <code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups</code> commands.</li>\n<li>Move <code translate=\"no\" dir=\"ltr\">gcloud beta deployment-manager</code> commands to general availability as\n<code translate=\"no\" dir=\"ltr\">gcloud deployment-manager</code> and update to use the v2beta3 API. This change\ndoes not alter the gcloud surface for users of the deployment-manager\ncomponent.</li>\n<li>Update kubectl to 1.0.0.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics</code> commands now use the genomics V1 API. The\n--project-number flag for <code translate=\"no\" dir=\"ltr\">dataset create</code> and <code translate=\"no\" dir=\"ltr\">dataset list</code> is now\nobsolete. The configured --project-id is used instead and can be overridden\nwith the --project-id flag.</li>\n<li>Fix hang on errors in <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code>.</li>\n</ul>",
+      "date_published": "2015-07-22T00:00:00+00:00"
+    },
+    {
       "id": "0969_2015-07-15",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0969_2015-07-15",
       "title": "0.9.69 (2015-07-15)",
@@ -206,13 +213,6 @@
       "title": "0.9.39 (2014-12-03)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2014-12-03T00:00:00+00:00"
-    },
-    {
-      "id": "0937_2014-11-19",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0937_2014-11-19",
-      "title": "0.9.37 (2014-11-19)",
-      "content_html": "<ul>\n<li>Added support for local SSD.</li>\n</ul>",
-      "date_published": "2014-11-19T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
