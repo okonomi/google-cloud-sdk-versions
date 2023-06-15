@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "10200_2016-03-22",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#10200_2016-03-22",
+      "title": "102.0.0 (2016-03-22)",
+      "content_html": "<h3 id=\"breaking_changes_184\" data-text=\"Breaking Changes\">Breaking Changes</h3><ul>\n<li><p>The <code translate=\"no\" dir=\"ltr\">gcloud alpha container nodepools</code> commands have been renamed to\n<code translate=\"no\" dir=\"ltr\">node-pools</code>. Functionality and parameters haven't changed.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud beta iam list-grantable-roles</code> now returns a list of roles instead of\na dictionary with a single key 'roles' with the value of a list of roles.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud config configuration describe</code> output has changed to include the\nconfiguration <code translate=\"no\" dir=\"ltr\">name</code> and <code translate=\"no\" dir=\"ltr\">is_active</code> fields. All configuration properties are\nnow part of the <code translate=\"no\" dir=\"ltr\">properties</code> field.</p></li>\n</ul><h3 id=\"cloud_sdk_74\" data-text=\"Cloud SDK\">Cloud SDK</h3><ul>\n<li>--format=json and --format=yaml now list resource attributes with null values.</li>\n</ul><h3 id=\"google_app_engine_60\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>\n<p>Use of the Google Container Builder service is now enabled by default for\nall managed VMs deployments.</p>\n\n<p>This change may require you to enable the Container Builder API. Visit\n<a href=\"https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=*PROJECT_ID*;\">https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=*PROJECT_ID*;</a>\nto enable it, where <em>PROJECT_ID</em> is your current project ID.</p>\n</li>\n<li>\n<p>Updated Google App Engine components to 1.9.34.\nPlease visit the following release notes for details:</p>\n\n<ul>\n<li>Python - https://cloud.google.com/appengine/docs/standard/python/release-notes</li>\n<li>Java - https://cloud.google.com/appengine/docs/standard/java/release-notes</li>\n</ul>\n</li>\n</ul><h3 id=\"google_compute_engine_65\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li><p>Added <code translate=\"no\" dir=\"ltr\">gcloud compute backend-services</code> session affinity commands.</p></li>\n<li><p>Added <code translate=\"no\" dir=\"ltr\">gcloud compute http-health-checks</code> and <code translate=\"no\" dir=\"ltr\">https-health-checks</code> commands.</p></li>\n<li><p>Added <code translate=\"no\" dir=\"ltr\">gcloud alpha compute target-ssl-proxies</code> commands.</p></li>\n<li><p>Extended <code translate=\"no\" dir=\"ltr\">gcloud compute forwarding-rules</code> to support <code translate=\"no\" dir=\"ltr\">target-ssl-proxies</code>.</p></li>\n</ul><h3 id=\"google_container_engine_55\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud container clusters list</code> will output a warning if there were zones\nfor which it could not retrieve results.</p></li>\n<li><p>Updated kubectl to version 1.2.0.</p></li>\n</ul>",
+      "date_published": "2016-03-22T00:00:00+00:00"
+    },
+    {
       "id": "10100_2016-03-16",
       "url": "https://cloud.google.com/sdk/docs/release-notes#10100_2016-03-16",
       "title": "101.0.0 (2016-03-16)",
@@ -206,13 +213,6 @@
       "title": "0.9.74 (2015-08-19)",
       "content_html": "<ul>\n<li>New list and import commands under <code translate=\"no\" dir=\"ltr\">gcloud alpha genomics variants</code>.</li>\n<li>Removed <code translate=\"no\" dir=\"ltr\">--remote</code> flag. Instead, please use the <code translate=\"no\" dir=\"ltr\">--docker-build=remote</code>\nflag (or use <code translate=\"no\" dir=\"ltr\">--docker-build=local</code> to force a local build).</li>\n<li>In this release, Docker builds are hosted by default. To opt-in to the old\nbehavior, please use the <code translate=\"no\" dir=\"ltr\">--docker-build=local</code> flag.</li>\n</ul>",
       "date_published": "2015-08-19T00:00:00+00:00"
-    },
-    {
-      "id": "0973_2015-08-12",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0973_2015-08-12",
-      "title": "0.9.73 (2015-08-12)",
-      "content_html": "<ul>\n<li>gcloud sql instances create default to MySQL 5.6</li>\n<li>gcloud beta container get-credentials renamed to gcloud beta container\nclusters get-credentials</li>\n<li>New commands\n<ul>\n<li>gcloud beta projects ...</li>\n<li>gcloud alpha genomics callsets ...</li>\n<li>gcloud beta emulators datastore ...</li>\n<li>gcloud beta container get-server-config</li>\n<li>gcloud alpha config configurations</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2015-08-12T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
