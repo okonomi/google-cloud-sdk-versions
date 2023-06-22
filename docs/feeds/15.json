@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0912_2013-11-06",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0912_2013-11-06",
+      "title": "0.9.12 (2013-11-06)",
+      "content_html": "<ul>\n<li>Updated all App Engine tools to 1.8.7</li>\n<li>Updated bq to 2.0.17</li>\n<li>A few usability improvements in the component manager and install flow.</li>\n</ul>",
+      "date_published": "2013-11-06T00:00:00+00:00"
+    },
+    {
       "id": "0911_2013-10-28",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0911_2013-10-28",
       "title": "0.9.11 (2013-10-28)",
