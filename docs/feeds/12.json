@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "10500_2016-04-13",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#10500_2016-04-13",
+      "title": "105.0.0 (2016-04-13)",
+      "content_html": "<h3 id=\"breaking_changes_183\" data-text=\"Breaking Changes\">Breaking Changes</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">health-checks</code> commands for protocol HTTP2 have been removed.</p></li>\n<li><p>Rename the <code translate=\"no\" dir=\"ltr\">alpha compute url-maps</code> <code translate=\"no\" dir=\"ltr\">invalidate-cache</code> and\n<code translate=\"no\" dir=\"ltr\">list-cache-invalidations</code> subcommands to <code translate=\"no\" dir=\"ltr\">invalidate-cdn-cache</code> and\n<code translate=\"no\" dir=\"ltr\">list-cdn-cache-invalidations</code>, respectively.</p></li>\n</ul><h3 id=\"cloud_sdk_72\" data-text=\"Cloud SDK\">Cloud SDK</h3><ul>\n<li><p>Suppress progress tracker animations if not outputting to a terminal.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud components list</code> now supports the <code translate=\"no\" dir=\"ltr\">--filter</code> flag and queries like:\n<code translate=\"no\" dir=\"ltr\">gcloud components list --filter=id:app-engine-java\n--format=\"value(state.name)\"</code></p></li>\n</ul><h3 id=\"google_compute_engine_62\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>Promote Cloud CDN functionality from alpha to beta.</li>\n</ul><h3 id=\"google_app_engine_57\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>File uploads during gcloud preview app deploy have been improved. If you have\nany trouble, you can revert to the old behavior with\n<code translate=\"no\" dir=\"ltr\">gcloud config set app/use_gsutil true</code>.</li>\n</ul>",
+      "date_published": "2016-04-13T00:00:00+00:00"
+    },
+    {
       "id": "10400_2016-04-06",
       "url": "https://cloud.google.com/sdk/docs/release-notes#10400_2016-04-06",
       "title": "104.0.0 (2016-04-06)",
@@ -206,13 +213,6 @@
       "title": "0.9.77 (2015-09-09)",
       "content_html": "<ul>\n<li>gcloud preview logging is now gcloud beta logging.</li>\n<li>Update kubectl to version 1.0.5</li>\n<li>Windows Cloud SDK installer improvements:\n<ul>\n<li>Now allows changing the installation mode. You can choose between a\n\"current user\" installation and an \"all users\" installation.</li>\n<li>Now has an uninstaller and writes \"Add/Remove Programs\" uninstall\nentries.</li>\n</ul>\n</li>\n<li>Removal of unsupported --env-vars argument from gcloud preview app deploy.</li>\n<li>gcloud compute instance groups: Allow --named-ports flag to be empty and\nclean named ports in set-named-ports commands.</li>\n<li>Change in gcloud compute backend-services: introduce new flag\n--instance-group which takes advantage of new Instance Groups API.</li>\n</ul>",
       "date_published": "2015-09-09T00:00:00+00:00"
-    },
-    {
-      "id": "0976_2015-09-02",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0976_2015-09-02",
-      "title": "0.9.76 (2015-09-02)",
-      "content_html": "<ul>\n<li>Update gsutil component to 4.14.</li>\n<li>Resource views commands have moved from preview to alpha. Please use <code translate=\"no\" dir=\"ltr\">gcloud\nalpha compute resource-views</code> in place of <code translate=\"no\" dir=\"ltr\">gcloud preview resource-views</code>.</li>\n<li>Replica pool commands have moved from preview to alpha. Please use <code translate=\"no\" dir=\"ltr\">gcloud\nalpha compute replica-pools</code> in place of <code translate=\"no\" dir=\"ltr\">gcloud preview replica-pools</code>.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta source repo</code> was renamed to <code translate=\"no\" dir=\"ltr\">gcloud beta source repos</code>\n</li>\n<li>Created google-cloud-sdk-announce@googlegroups.com\n<a href=\"https://groups.google.com/d/forum/google-cloud-sdk-announce\">https://groups.google.com/d/forum/google-cloud-sdk-announce</a> email group to\nannounce new releases and other important information.</li>\n<li>'gcloud alpha init' command is now also in beta.</li>\n<li>Add target size of managed instance group for \"compute instance-groups\nmanaged list\" command.</li>\n<li>Fixed the removal of platform-specific components when running <code translate=\"no\" dir=\"ltr\">gcloud\ncomponents remove</code>.</li>\n<li>Fixed a bug related to checking for SDK updates when the SDK is installed as\nroot (like on Debian Compute Engine images).\n<ul>\n<li>Affected users should now see less frequent update messages and overall\nimproved gcloud performance</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> won't update local images automatically anymore.</li>\n</ul>",
-      "date_published": "2015-09-02T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
