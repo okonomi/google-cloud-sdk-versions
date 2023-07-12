@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0914_2013-12-17",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0914_2013-12-17",
+      "title": "0.9.14 (2013-12-17)",
+      "content_html": "<ul>\n<li>'gcloud sql' now available.\n<ul>\n<li>Find out more: <a href=\"https://developers.google.com/cloud-sql/docs/cloud-sdk\">https://developers.google.com/cloud-sql/docs/cloud-sdk</a>\n</li>\n</ul>\n</li>\n<li>Added bash completion for gcloud commands.\n<ul>\n<li>Choose 'yes' at the prompt during installation to add it to your bash\nprofile.</li>\n</ul>\n</li>\n<li>Added 'gcloud version' command.</li>\n<li>More flexible support of virtual env installations.</li>\n<li>Fix for environments with protobuf installed.</li>\n</ul>",
+      "date_published": "2013-12-17T00:00:00+00:00"
+    },
+    {
       "id": "09131_2013-12-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#09131_2013-12-04",
       "title": "0.9.13.1 (2013-12-04)",
