@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0946_2015-02-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0946_2015-02-04",
+      "title": "0.9.46 (2015-02-04)",
+      "content_html": "<ul>\n<li>We've made significant improvements to the stability and speed of deploying\nManaged VMs by leveraging the new Google Container Registry. See this post\nfor details on how to try it out today:\n<a href=\"https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM\">https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM</a>\n</li>\n</ul>",
+      "date_published": "2015-02-04T00:00:00+00:00"
+    },
+    {
       "id": "0945_2015-01-28",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0945_2015-01-28",
       "title": "0.9.45 (2015-01-28)",
@@ -206,13 +213,6 @@
       "title": "0.9.16 (2014-01-28)",
       "content_html": "<ul>\n<li>Added Python2.6 compatibility.</li>\n<li>Added ability to symlink directly to scripts in the bin/ directory.</li>\n<li>Fixed bug in default setup of credentials when on a Compute Engine VM.</li>\n</ul>",
       "date_published": "2014-01-28T00:00:00+00:00"
-    },
-    {
-      "id": "0915_2014-01-15",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0915_2014-01-15",
-      "title": "0.9.15 (2014-01-15)",
-      "content_html": "<ul>\n<li>Updated gsutil to 3.40</li>\n<li>Updated all App Engine tools to 1.8.9</li>\n<li>Fixed broken PHP runtimes on Mac and Windows installs when running\nthe dev_appserver.</li>\n<li>Adding sh/cmd wrapper scripts for bq, gcutil, and gsutil for better PATH\nhandling on Windows.</li>\n<li>Fixed issue with failing <code translate=\"no\" dir=\"ltr\">goapp build</code>\n</li>\n</ul>",
-      "date_published": "2014-01-15T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
