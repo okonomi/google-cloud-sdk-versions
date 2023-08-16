@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0982_2015-10-14",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0982_2015-10-14",
+      "title": "0.9.82 (2015-10-14)",
+      "content_html": "<h3 id=\"app_engine_113\" data-text=\"App Engine\">App Engine</h3><ul>\n<li>\n<p>The App Engine Admin API is now the default path for deployments in the\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> command. This transition should be transparent,\nbut if you experience any issues and would like to revert to the old\nbehavior, please run <code translate=\"no\" dir=\"ltr\">gcloud config set app/use_appengine_api false</code>.</p>\n\n<p>See <a href=\"https://cloud.google.com/appengine/docs/standard/admin-api/\">https://cloud.google.com/appengine/docs/standard/admin-api/</a> for more\ninformation about this API.</p>\n</li>\n<li><p>With <code translate=\"no\" dir=\"ltr\">env: 2</code>, valid python runtimes are <code translate=\"no\" dir=\"ltr\">python</code> and <code translate=\"no\" dir=\"ltr\">python-compat</code>.</p></li>\n<li><p>Implemented fingerprinting support for python.</p></li>\n</ul><h3 id=\"container_engine_7\" data-text=\"Container Engine\">Container Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud container clusters create</code>: The flag <code translate=\"no\" dir=\"ltr\">--container-ipv4-cidr</code> has\nbeen deprecated; <code translate=\"no\" dir=\"ltr\">--cluster-ipv4-cidr</code> should be used instead.</li>\n</ul><h3 id=\"sql_2\" data-text=\"SQL\">SQL</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud beta sql operations describe</code> and <code translate=\"no\" dir=\"ltr\">gcloud beta sql operations wait</code>\nno longer need <code translate=\"no\" dir=\"ltr\">--instance</code> flag (<code translate=\"no\" dir=\"ltr\">gcloud beta sql operations list</code> still\ndoes).</p></li>\n<li><p>Fixed issue with <code translate=\"no\" dir=\"ltr\">gcloud sql instances clone</code> when <code translate=\"no\" dir=\"ltr\">--bin-log-file-name</code> and\n<code translate=\"no\" dir=\"ltr\">--bin-log-position</code> are set.\n(<a href=\"https://issuetracker.google.com/issues/35906280\">https://issuetracker.google.com/issues/35906280</a>).</p></li>\n</ul>",
+      "date_published": "2015-10-14T00:00:00+00:00"
+    },
+    {
       "id": "0981_2015-10-07",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0981_2015-10-07",
       "title": "0.9.81 (2015-10-07)",
@@ -206,13 +213,6 @@
       "title": "0.9.51 (2015-03-11)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2015-03-11T00:00:00+00:00"
-    },
-    {
-      "id": "0950_2015-03-04",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0950_2015-03-04",
-      "title": "0.9.50 (2015-03-04)",
-      "content_html": "<ul>\n<li>Introducing the <code translate=\"no\" dir=\"ltr\">gcloud beta ...</code> command group\n<ul>\n<li>Existing gcloud commands will be replicated under this new group, but\nuse the beta version of their API instead of the GA version.</li>\n<li>New command behavior and features that are beta only will first appear\nunder this group until the feature gets promoted to general\navailability.</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update beta</code> to access the new commands, or it\nwill be automatically installed for you on first run attempt.</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute ...</code> is now available, using the compute 'beta' API.\nCloud VPN.  See <a href=\"https://cloud.google.com/compute/docs/vpn\">https://cloud.google.com/compute/docs/vpn</a>\nfor details.</li>\n<li>Release of <code translate=\"no\" dir=\"ltr\">gcloud compute instances move</code> and <code translate=\"no\" dir=\"ltr\">gcloud compute disks move</code>.</li>\n</ul>",
-      "date_published": "2015-03-04T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"

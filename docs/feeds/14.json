@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0950_2015-03-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0950_2015-03-04",
+      "title": "0.9.50 (2015-03-04)",
+      "content_html": "<ul>\n<li>Introducing the <code translate=\"no\" dir=\"ltr\">gcloud beta ...</code> command group\n<ul>\n<li>Existing gcloud commands will be replicated under this new group, but\nuse the beta version of their API instead of the GA version.</li>\n<li>New command behavior and features that are beta only will first appear\nunder this group until the feature gets promoted to general\navailability.</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update beta</code> to access the new commands, or it\nwill be automatically installed for you on first run attempt.</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute ...</code> is now available, using the compute 'beta' API.\nCloud VPN.  See <a href=\"https://cloud.google.com/compute/docs/vpn\">https://cloud.google.com/compute/docs/vpn</a>\nfor details.</li>\n<li>Release of <code translate=\"no\" dir=\"ltr\">gcloud compute instances move</code> and <code translate=\"no\" dir=\"ltr\">gcloud compute disks move</code>.</li>\n</ul>",
+      "date_published": "2015-03-04T00:00:00+00:00"
+    },
+    {
       "id": "0949_2015-02-25",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0949_2015-02-25",
       "title": "0.9.49 (2015-02-25)",
@@ -206,13 +213,6 @@
       "title": "0.9.20 (2014-03-24)",
       "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
       "date_published": "2014-03-24T00:00:00+00:00"
-    },
-    {
-      "id": "0919_2014-03-19",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0919_2014-03-19",
-      "title": "0.9.19 (2014-03-19)",
-      "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
-      "date_published": "2014-03-19T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
