@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0920_2014-03-24",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0920_2014-03-24",
+      "title": "0.9.20 (2014-03-24)",
+      "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
+      "date_published": "2014-03-24T00:00:00+00:00"
+    },
+    {
       "id": "0919_2014-03-19",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0919_2014-03-19",
       "title": "0.9.19 (2014-03-19)",
