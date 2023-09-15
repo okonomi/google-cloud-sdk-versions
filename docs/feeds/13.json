@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0986_2015-11-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0986_2015-11-11",
+      "title": "0.9.86 (2015-11-11)",
+      "content_html": "<h3 id=\"app_engine_110\" data-text=\"App Engine\">App Engine</h3><ul>\n<li><p>Generated node.js Dockerfiles now add the full application context before\nrunning install hooks.</p></li>\n<li><p>For Google App Engine Node.js runtimes, install requested version of node\nprior to doing an npm install.</p></li>\n</ul><h3 id=\"compute_4\" data-text=\"Compute\">Compute</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute instances set-machine-type</code> has been promoted from alpha\nto beta,</li>\n</ul>",
+      "date_published": "2015-11-11T00:00:00+00:00"
+    },
+    {
       "id": "0985_2015-11-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0985_2015-11-04",
       "title": "0.9.85 (2015-11-04)",
@@ -206,13 +213,6 @@
       "title": "0.9.57 (2015-04-22)",
       "content_html": "<ul>\n<li>gcloud beta deployment-manager launch.</li>\n<li>gcloud app new deployment behavior.\n<ul>\n<li>deploy and run commands no longer take directories, only take a list of\nexplicit yaml files.</li>\n</ul>\n</li>\n<li>gcloud beta compute reset-windows-password, support for new authentication\nscheme on Windows guest agent versions 3.0.0.0 and later.</li>\n<li>Bug fixes.</li>\n</ul>",
       "date_published": "2015-04-22T00:00:00+00:00"
-    },
-    {
-      "id": "0956_2015-04-15",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0956_2015-04-15",
-      "title": "0.9.56 (2015-04-15)",
-      "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
-      "date_published": "2015-04-15T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"

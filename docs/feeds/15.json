@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0923_2014-05-01",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0923_2014-05-01",
+      "title": "0.9.23 (2014-05-01)",
+      "content_html": "<ul>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud compute</code> tool for working with compute engine (RC)\n<ul>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud components update compute</code> to install</li>\n<li>Run <code translate=\"no\" dir=\"ltr\">gcloud help compute</code> for more information</li>\n</ul>\n</li>\n<li>Updated all App Engine tools to 1.9.4</li>\n<li>Added color to error and warning messages (on Linux and Mac)\n<ul>\n<li>To disable, run <code translate=\"no\" dir=\"ltr\">gcloud config set disable_color true</code>\n</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2014-05-01T00:00:00+00:00"
+    },
+    {
       "id": "0922_2014-04-23",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0922_2014-04-23",
       "title": "0.9.22 (2014-04-23)",

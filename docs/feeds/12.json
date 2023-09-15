@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "11500_2016-06-22",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#11500_2016-06-22",
+      "title": "115.0.0 (2016-06-22)",
+      "content_html": "<h3 id=\"breaking_changes_182\" data-text=\"Breaking Changes\">Breaking Changes</h3><ul>\n<li><p>(Google Compute Engine) The <code translate=\"no\" dir=\"ltr\">debian-7</code> and <code translate=\"no\" dir=\"ltr\">debian-7-backports</code> image\naliases have been removed, as Debian 7 has reached end-of-life</p></li>\n<li><p>(Google Compute Engine) The <code translate=\"no\" dir=\"ltr\">--port-range</code> flag in the <code translate=\"no\" dir=\"ltr\">gcloud compute\nforwarding-rules create</code> command has been deprecated; please use the\n<code translate=\"no\" dir=\"ltr\">--ports</code> flag instead. At this time only consecutive ports can be\nspecified.</p></li>\n<li><p>(Google Compute Engine) <code translate=\"no\" dir=\"ltr\">gcloud alpha compute rolling-updates</code> commands\nhave been deprecated and removed.</p></li>\n<li><p>(Google Container Engine) The <code translate=\"no\" dir=\"ltr\">--wait</code> flag for the <code translate=\"no\" dir=\"ltr\">gcloud container\nclusters</code> command group is now deprecated; please use the <code translate=\"no\" dir=\"ltr\">--async</code> flag\ninstead.</p></li>\n</ul><h3 id=\"cloud_sdk_68\" data-text=\"Cloud SDK\">Cloud SDK</h3><ul>\n<li>Users will now be prompted to set Cloud SDK proxy properties if network\nissues are detected while running <code translate=\"no\" dir=\"ltr\">gcloud init</code>.</li>\n</ul><h3 id=\"google_compute_engine_52\" data-text=\"Google Compute Engine\">Google Compute Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute backend-services {create,update} --enable-cdn</code> flag has been\npromoted from beta to GA.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud compute url-maps invalidate-cdn-cache</code> has been promoted from beta\nto GA.</li>\n<li>The <code translate=\"no\" dir=\"ltr\">--remote-traffic-selector</code> flag in <code translate=\"no\" dir=\"ltr\">gcloud compute vpn-tunnels create</code>,\nwhich allows specifying a list of CIDR blocks to be used during IKE\\IPsec\ntraffic selectors negotiation, is now available in the GA release track.</li>\n</ul><h3 id=\"google_app_engine_48\" data-text=\"Google App Engine\">Google App Engine</h3><ul>\n<li>Add <code translate=\"no\" dir=\"ltr\">gcloud preview app versions describe</code> command.</li>\n</ul><h3 id=\"deployment_manager_8\" data-text=\"Deployment Manager\">Deployment Manager</h3><ul>\n<li>(beta only) deployment-manager now supports rollbacks with the\n<code translate=\"no\" dir=\"ltr\">--manifest-id</code> flag: <code translate=\"no\" dir=\"ltr\">gcloud beta deployment-manager deployments update\ndeployment-name --manifest-id=MANIFEST-ID</code>\n</li>\n</ul><h3 id=\"docker\" data-text=\"Docker\">Docker</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud docker</code> now respects the <code translate=\"no\" dir=\"ltr\">$DOCKER_CONFIG</code> environment variable</li>\n</ul><h3 id=\"emulators_9\" data-text=\"Emulators\">Emulators</h3><ul>\n<li>The Cloud Datastore emulator now has an <code translate=\"no\" dir=\"ltr\">env-unset</code> command which prints the\ncommands to unset any environment variables set by running the commands in\nthe output of the <code translate=\"no\" dir=\"ltr\">env-init</code> command.</li>\n</ul>",
+      "date_published": "2016-06-22T00:00:00+00:00"
+    },
+    {
       "id": "11400_2016-06-15",
       "url": "https://cloud.google.com/sdk/docs/release-notes#11400_2016-06-15",
       "title": "114.0.0 (2016-06-15)",
@@ -206,13 +213,6 @@
       "title": "0.9.87 (2015-11-18)",
       "content_html": "<h3 id=\"compute_3\" data-text=\"Compute\">Compute</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha compute instances create</code> now supports --custom-cpu and\n--custom-memory flags to specify custom machine types.</li>\n</ul><h3 id=\"dataproc\" data-text=\"Dataproc\">Dataproc</h3><ul>\n<li>Added <code translate=\"no\" dir=\"ltr\">gcloud beta dataproc clusters diagnose</code> command. See\n<a href=\"https://cloud.google.com/dataproc/support/diagnose-command\">https://cloud.google.com/dataproc/support/diagnose-command</a> for more info.</li>\n</ul><h3 id=\"google_container_engine_61\" data-text=\"Google Container Engine\">Google Container Engine</h3><ul>\n<li>Updated kubectl to version 1.1.1.</li>\n</ul>",
       "date_published": "2015-11-18T00:00:00+00:00"
-    },
-    {
-      "id": "0986_2015-11-11",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0986_2015-11-11",
-      "title": "0.9.86 (2015-11-11)",
-      "content_html": "<h3 id=\"app_engine_110\" data-text=\"App Engine\">App Engine</h3><ul>\n<li><p>Generated node.js Dockerfiles now add the full application context before\nrunning install hooks.</p></li>\n<li><p>For Google App Engine Node.js runtimes, install requested version of node\nprior to doing an npm install.</p></li>\n</ul><h3 id=\"compute_4\" data-text=\"Compute\">Compute</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute instances set-machine-type</code> has been promoted from alpha\nto beta,</li>\n</ul>",
-      "date_published": "2015-11-11T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
