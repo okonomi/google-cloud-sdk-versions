@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0958_2015-04-29",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0958_2015-04-29",
+      "title": "0.9.58 (2015-04-29)",
+      "content_html": "<ul>\n<li>gcloud alpha bigquery launch.</li>\n<li>Better error reporting in Customer Supplied Encryption Key files.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-04-29T00:00:00+00:00"
+    },
+    {
       "id": "0957_2015-04-22",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0957_2015-04-22",
       "title": "0.9.57 (2015-04-22)",
@@ -206,13 +213,6 @@
       "title": "0.9.26 (2014-06-04)",
       "content_html": "<ul>\n<li>Windows support for SSH and SCP to Compute VMs\n<ul>\n<li>The following will now work natively on Windows without the need for\ncygwin:\n<ul>\n<li>gcloud compute ssh</li>\n<li>gcloud compute copy-files</li>\n<li>gcutil ssh</li>\n<li>gcutil push</li>\n<li>gcutil pull</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Support for Java apps in 'gcloud preview app run'</li>\n<li>Updated gsutil to 4.1</li>\n<li>Updated gcutil to 1.16.0</li>\n<li>Updated all App Engine tools to 1.9.6</li>\n</ul>",
       "date_published": "2014-06-04T00:00:00+00:00"
-    },
-    {
-      "id": "0925_2014-05-21",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0925_2014-05-21",
-      "title": "0.9.25 (2014-05-21)",
-      "content_html": "<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> and <code translate=\"no\" dir=\"ltr\">... run</code> argument updates.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud config ...</code> argument updates.</li>\n<li>Updated all App Engine tools to 1.9.5</li>\n</ul>",
-      "date_published": "2014-05-21T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
