@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0927_2014-06-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0927_2014-06-18",
+      "title": "0.9.27 (2014-06-18)",
+      "content_html": "<ul>\n<li>Added --shell mode to all gcloud commands\n<ul>\n<li>Type a partial command followed by '--shell' to drop into a sub shell at\nthat point in the command tree.</li>\n<li>Eg:\n$ gcloud compute --shell\ngcloud compute $ instances list\ngcloud compute $ copy-files ...</li>\n</ul>\n</li>\n<li>Updated gsutil to 4.3</li>\n<li>Allow installed crcmod to be used by default with gsutil by enabling site\npackages</li>\n</ul>",
+      "date_published": "2014-06-18T00:00:00+00:00"
+    },
+    {
       "id": "0926_2014-06-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0926_2014-06-04",
       "title": "0.9.26 (2014-06-04)",
