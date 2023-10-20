@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "45101_2023-10-19",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#45101_2023-10-19",
+      "title": "451.0.1 (2023-10-19)",
+      "content_html": "<p>Subscribe to these release notes at <a href=\"https://groups.google.com/forum/#!forum/google-cloud-sdk-announce\">https://groups.google.com/forum/#!forum/google-cloud-sdk-announce</a>.</p>",
+      "date_published": "2023-10-19T00:00:00+00:00"
+    },
+    {
       "id": "45100_2023-10-17",
       "url": "https://cloud.google.com/sdk/docs/release-notes#45100_2023-10-17",
       "title": "451.0.0 (2023-10-17)",

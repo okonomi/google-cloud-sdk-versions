@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "9101_2015-12-16",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#9101_2015-12-16",
+      "title": "91.0.1 (2015-12-16)",
+      "content_html": "<ul>\n<li>The Cloud SDK has been rolled back to 90.0.0.</li>\n</ul>",
+      "date_published": "2015-12-16T00:00:00+00:00"
+    },
+    {
       "id": "9100_2015-12-16",
       "url": "https://cloud.google.com/sdk/docs/release-notes#9100_2015-12-16",
       "title": "91.0.0 (2015-12-16)",
@@ -206,13 +213,6 @@
       "title": "0.9.63 (2015-06-03)",
       "content_html": "<ul>\n<li>2x faster command load times.</li>\n<li>Fix to allow <code translate=\"no\" dir=\"ltr\">preview app</code> to use oauth service accounts\n<a href=\"https://issuetracker.google.com/issues/35906214\">https://issuetracker.google.com/issues/35906214</a>\n</li>\n</ul>",
       "date_published": "2015-06-03T00:00:00+00:00"
-    },
-    {
-      "id": "0962_2015-05-27",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0962_2015-05-27",
-      "title": "0.9.62 (2015-05-27)",
-      "content_html": "<ul>\n<li>Not released.</li>\n</ul>",
-      "date_published": "2015-05-27T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
