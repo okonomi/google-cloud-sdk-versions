@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0933_2014-09-30",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0933_2014-09-30",
+      "title": "0.9.33 (2014-09-30)",
+      "content_html": "<ul>\n<li>Overhaul of 'gcloud sql'\n<ul>\n<li>Updated the output for all commands.</li>\n<li>Updated usage for 'gcloud sql ssl-certs create'.</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2014-09-30T00:00:00+00:00"
+    },
+    {
       "id": "0932_2014-09-16",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0932_2014-09-16",
       "title": "0.9.32 (2014-09-16)",
@@ -206,13 +213,6 @@
       "title": "0.9.5 (2013-06-18)",
       "content_html": "<ul>\n<li>App Engine Hotfix</li>\n</ul>",
       "date_published": "2013-06-18T00:00:00+00:00"
-    },
-    {
-      "id": "094_2013-06-12",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#094_2013-06-12",
-      "title": "0.9.4 (2013-06-12)",
-      "content_html": "<ul>\n<li>archive file name changed to google-cloud-sdk</li>\n<li>Upgraded all App Engine tools to 1.8.1</li>\n<li>Upgraded gcutil to 1.8.1</li>\n<li>Upgraded gsutil to 3.31 (3.30 was never released)</li>\n<li>More improvements to gauth experience\n<ul>\n<li>gauth now provides links to the new Cloud Console (for obtaining your\nproject ID), as opposed to the API console</li>\n<li>Suppression of spurious error related to the Windows Registry</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2013-06-12T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
