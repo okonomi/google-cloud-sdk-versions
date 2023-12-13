@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0969_2015-07-15",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0969_2015-07-15",
+      "title": "0.9.69 (2015-07-15)",
+      "content_html": "<ul>\n<li>Update kubectl to 0.20.2.</li>\n<li>Fix an authentication issue with 'gcloud docker' affecting docker version\n1.7.0 and later.</li>\n<li>Remove <code translate=\"no\" dir=\"ltr\">gcloud preview dm-v2</code> command group.</li>\n<li>Remove <code translate=\"no\" dir=\"ltr\">gcloud preview deployment-manager</code> command group\n(<code translate=\"no\" dir=\"ltr\">gcloud beta deployment-manager</code> still exists; see\n<a href=\"https://cloud.google.com/sdk/#install-version\">https://cloud.google.com/sdk/#install-version</a> if you want to pin your\ninstallation to an old version).</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-07-15T00:00:00+00:00"
+    },
+    {
       "id": "0968_2015-07-08",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0968_2015-07-08",
       "title": "0.9.68 (2015-07-08)",
@@ -206,13 +213,6 @@
       "title": "0.9.37 (2014-11-19)",
       "content_html": "<ul>\n<li>Added support for local SSD.</li>\n</ul>",
       "date_published": "2014-11-19T00:00:00+00:00"
-    },
-    {
-      "id": "0936_2014-11-12",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0936_2014-11-12",
-      "title": "0.9.36 (2014-11-12)",
-      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
-      "date_published": "2014-11-12T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"

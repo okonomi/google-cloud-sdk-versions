@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0936_2014-11-12",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0936_2014-11-12",
+      "title": "0.9.36 (2014-11-12)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2014-11-12T00:00:00+00:00"
+    },
+    {
       "id": "0935_2014-11-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0935_2014-11-04",
       "title": "0.9.35 (2014-11-04)",
@@ -206,13 +213,6 @@
       "title": "0.9.8 (2013-08-27)",
       "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.4.</li>\n<li>Upgraded gcutil to 1.8.3.</li>\n<li>Upgraded gsutil to 3.35.</li>\n</ul>",
       "date_published": "2013-08-27T00:00:00+00:00"
-    },
-    {
-      "id": "097_2013-08-06",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#097_2013-08-06",
-      "title": "0.9.7 (2013-08-06)",
-      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.3</li>\n<li>Upgraded gsutil to 3.34</li>\n</ul>",
-      "date_published": "2013-08-06T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
