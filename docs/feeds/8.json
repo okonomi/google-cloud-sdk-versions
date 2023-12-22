@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "23700_2019-03-05",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#23700_2019-03-05",
+      "title": "237.0.0 (2019-03-05)",
+      "content_html": "<h3 id=\"cloud_sdk_41\" data-text=\"Cloud SDK\" tabindex=\"-1\">Cloud SDK</h3><ul>\n<li>Fixed issue affecting users overwriting an existing Cloud SDK install via the\nWindows installer, in which certain gcloud commands crashed with a \"gcloud\ncrashed (LayoutException): Multiple definitions for release track\" error. This\nissue can be tracked at <a href=\"https://issuetracker.google.com/123390310\">https://issuetracker.google.com/123390310</a>.</li>\n</ul><h3 id=\"bigquery_59\" data-text=\"BigQuery\" tabindex=\"-1\">BigQuery</h3><ul>\n<li>Fixes bug in formatting pre-1900 timestamps.</li>\n</ul><h3 id=\"cloud_dataproc_61\" data-text=\"Cloud Dataproc\" tabindex=\"-1\">Cloud Dataproc</h3><ul>\n<li>Fixed a bug where several fields were hidden from\n<code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters import</code> and <code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters export</code>\nin all release tracks. Note that these fields were always\navailable in <code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters create-from-file</code> and\n<code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters describe</code>.</li>\n</ul><h3 id=\"cloud_storage_74\" data-text=\"Cloud Storage\" tabindex=\"-1\">Cloud Storage</h3><ul>\n<li>Updated gsutil component to 4.37.</li>\n</ul><h3 id=\"compute_engine_204\" data-text=\"Compute Engine\" tabindex=\"-1\">Compute Engine</h3><ul>\n<li>Promoted the <code translate=\"no\" dir=\"ltr\">--server-binding</code> flag of <code translate=\"no\" dir=\"ltr\">gcloud compute sole-tenancy\nnode-templates create</code> to beta.</li>\n<li>Reduced lower bound for data disk sizes from 10GB to 1GB for\n<code translate=\"no\" dir=\"ltr\">gcloud compute instances create</code>.</li>\n<li>Added <code translate=\"no\" dir=\"ltr\">resources-accelerator</code> to <code translate=\"no\" dir=\"ltr\">gcloud beta compute commitments create</code>.</li>\n<li>Promoted <code translate=\"no\" dir=\"ltr\">all</code> option of <code translate=\"no\" dir=\"ltr\">--ports</code> flag for <code translate=\"no\" dir=\"ltr\">gcloud compute forwarding-rules</code>\nto GA.</li>\n<li>Added INSTANCE_TEMPLATE and VERSION_NAME columns to output of <code translate=\"no\" dir=\"ltr\">gcloud compute\ninstance-groups managed list-instances</code>.</li>\n</ul><h3 id=\"kubernetes_engine_145\" data-text=\"Kubernetes Engine\" tabindex=\"-1\">Kubernetes Engine</h3><ul>\n<li>Updated Google Kubernetes Engine's kubectl from version 1.10.7 to 1.11.7.</li>\n<li>Added extra Google Kubernetes Engine kubectl versions:\n<ul>\n<li>kubectl.1.9</li>\n<li>kubectl.1.10</li>\n<li>kubectl.1.11</li>\n<li>kubectl.1.12</li>\n<li>kubectl.1.13</li>\n</ul>\n</li>\n</ul><p>Subscribe to these release notes at <a href=\"https://groups.google.com/forum/#!forum/google-cloud-sdk-announce\">https://groups.google.com/forum/#!forum/google-cloud-sdk-announce</a>.</p>",
+      "date_published": "2019-03-05T00:00:00+00:00"
+    },
+    {
       "id": "23600_2019-02-26",
       "url": "https://cloud.google.com/sdk/docs/release-notes#23600_2019-02-26",
       "title": "236.0.0 (2019-02-26)",
@@ -206,13 +213,6 @@
       "title": "208.0.2 (2018-07-12)",
       "content_html": "<ul>\n<li>Hotfix for <code translate=\"no\" dir=\"ltr\">dev_appserver</code> crashes.</li>\n</ul>",
       "date_published": "2018-07-12T00:00:00+00:00"
-    },
-    {
-      "id": "20801_2018-07-11",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#20801_2018-07-11",
-      "title": "208.0.1 (2018-07-11)",
-      "content_html": "<ul>\n<li>Hotfix for <code translate=\"no\" dir=\"ltr\">gcloud dataproc</code> crashes.</li>\n</ul>",
-      "date_published": "2018-07-11T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/9.json"
