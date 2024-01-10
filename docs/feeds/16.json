@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0910_2013-10-20",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0910_2013-10-20",
+      "title": "0.9.10 (2013-10-20)",
+      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.6.</li>\n<li>Upgraded bq to 2.0.16.</li>\n<li>Upgraded gcutil to 1.9.1.</li>\n<li>A few improvements to the gauth web flow.</li>\n</ul>",
+      "date_published": "2013-10-20T00:00:00+00:00"
+    },
+    {
       "id": "099_2013-09-26",
       "url": "https://cloud.google.com/sdk/docs/release-notes#099_2013-09-26",
       "title": "0.9.9 (2013-09-26)",

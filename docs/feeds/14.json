@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0972_2015-08-05",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0972_2015-08-05",
+      "title": "0.9.72 (2015-08-05)",
+      "content_html": "<ul>\n<li>gcloud compute\n<ul>\n<li>initial surface changes for the backend-bucket.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">instance-groups set-named-ports</code>: introduced a new flag\n<code translate=\"no\" dir=\"ltr\">--named-ports NAME:PORT,[NAME:PORT,...]</code> - no need to specify names\nand ports in separate flags.</li>\n</ul>\n</li>\n<li>gcloud preview app deploy\nDeprecate <code translate=\"no\" dir=\"ltr\">--remote</code> flag in preparation for hosted Docker builds by\ndefault. Instead, please use the <code translate=\"no\" dir=\"ltr\">--docker-build={remote,local}</code> flag.\nThe default is still a local Docker build; in two releases, the default\nwill switch to a hosted build.</li>\n<li>New gcloud alpha genomics operations {list, cancel, describe} commands</li>\n</ul>",
+      "date_published": "2015-08-05T00:00:00+00:00"
+    },
+    {
       "id": "0971_2015-07-29",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0971_2015-07-29",
       "title": "0.9.71 (2015-07-29)",
@@ -206,13 +213,6 @@
       "title": "0.9.41 (2014-12-17)",
       "content_html": "<ul>\n<li>Progress bars.</li>\n<li>Compute Instances start and stop commands.</li>\n</ul>",
       "date_published": "2014-12-17T00:00:00+00:00"
-    },
-    {
-      "id": "0940_2014-12-09",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0940_2014-12-09",
-      "title": "0.9.40 (2014-12-09)",
-      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
-      "date_published": "2014-12-09T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
