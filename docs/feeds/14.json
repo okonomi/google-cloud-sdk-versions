@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0975_2015-08-26",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0975_2015-08-26",
+      "title": "0.9.75 (2015-08-26)",
+      "content_html": "<ul>\n<li>Container Engine\n<ul>\n<li>Container Engine GA commands available under <code translate=\"no\" dir=\"ltr\">gcloud container</code>.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta container get-credentials</code> now takes cluster name as\nargument instead of <code translate=\"no\" dir=\"ltr\">--cluster</code> flag for consistency with other\ncommands.</li>\n<li>Added <code translate=\"no\" dir=\"ltr\">gcloud alpha container clusters update &lt;cluster&gt;\n--cloud-monitoring=&lt;val&gt;</code> command.</li>\n</ul>\n</li>\n<li>New release notes are printed on upgrade. (This won't take effect until\nan upgrade from this version to a later version.)</li>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud alpha genomics variantsets export</code> command.</li>\n<li>Commands promoted from <code translate=\"no\" dir=\"ltr\">gcloud alpha</code> to <code translate=\"no\" dir=\"ltr\">gcloud beta</code>:\n<ul>\n<li><code translate=\"no\" dir=\"ltr\">gcloud beta config configurations ...</code></li>\n<li><code translate=\"no\" dir=\"ltr\">gcloud beta sources clone</code></li>\n</ul>\n</li>\n<li>Improvements in error reporting and default output formatting.</li>\n</ul>",
+      "date_published": "2015-08-26T00:00:00+00:00"
+    },
+    {
       "id": "0974_2015-08-19",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0974_2015-08-19",
       "title": "0.9.74 (2015-08-19)",
@@ -206,13 +213,6 @@
       "title": "0.9.44 (2015-01-21)",
       "content_html": "<ul>\n<li>Fixes applied to the google/appengine-gobase image for managed VMs.</li>\n<li>Tab completion for gcloud SQL commands.</li>\n</ul>",
       "date_published": "2015-01-21T00:00:00+00:00"
-    },
-    {
-      "id": "0943_2015-01-14",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0943_2015-01-14",
-      "title": "0.9.43 (2015-01-14)",
-      "content_html": "<ul>\n<li>Support added for authenticating service accounts with JSON keys. If using\nJSON keys, PyOpenSSL is no longer a dependency. Refer to help docs here:\n<a href=\"https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account\">https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account</a>.</li>\n</ul>",
-      "date_published": "2015-01-14T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"

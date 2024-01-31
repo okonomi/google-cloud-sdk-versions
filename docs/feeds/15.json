@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0943_2015-01-14",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0943_2015-01-14",
+      "title": "0.9.43 (2015-01-14)",
+      "content_html": "<ul>\n<li>Support added for authenticating service accounts with JSON keys. If using\nJSON keys, PyOpenSSL is no longer a dependency. Refer to help docs here:\n<a href=\"https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account\">https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account</a>.</li>\n</ul>",
+      "date_published": "2015-01-14T00:00:00+00:00"
+    },
+    {
       "id": "0942_2015-01-08",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0942_2015-01-08",
       "title": "0.9.42 (2015-01-08)",
@@ -206,13 +213,6 @@
       "title": "0.9.13.1 (2013-12-04)",
       "content_html": "<ul>\n<li>Validate queries to metadata server.</li>\n</ul>",
       "date_published": "2013-12-04T00:00:00+00:00"
-    },
-    {
-      "id": "0913_2013-11-19",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0913_2013-11-19",
-      "title": "0.9.13 (2013-11-19)",
-      "content_html": "<ul>\n<li>Updated all App Engine tools to 1.8.8</li>\n<li>Disabling site packages when running commands, to avoid library conflicts.</li>\n</ul>",
-      "date_published": "2013-11-19T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
