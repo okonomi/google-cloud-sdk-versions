@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0979_2015-09-23",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0979_2015-09-23",
+      "title": "0.9.79 (2015-09-23)",
+      "content_html": "<ul>\n<li>The following commands have been promoted from beta to GA:\n<ul>\n<li>gcloud config configurations ...</li>\n<li>gcloud source repos clone</li>\n<li>gcloud beta init. Old <code translate=\"no\" dir=\"ltr\">gcloud init</code> behavior has been removed, and\npartially replaced by new gcloud init or directly via gcloud source\nrepos clone.</li>\n</ul>\n</li>\n<li>Release gcloud beta dataproc.</li>\n<li>The --env-vars flag in gcloud preview app deploy has been removed.</li>\n<li>Automatic ssh key generation respects the --quiet flag.</li>\n<li>The --format flag now supports extended format expressions. For details run\n$ gcloud topic formats.</li>\n<li>Most commands now document the positive Boolean --FLAG form and accept\n--no-FLAG to disable. For the past few releases --log-http accepted an\noptional true/false value. It has been restored to its original definition\nof being a Boolean flag that has no value.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud sql</code> operations are now automatically retried for 2s in case of\nHttpException: The Cloud SQL instance operation does not exist.</li>\n<li>Update gcloud's kubectl from 1.0.5 to 1.0.6.</li>\n<li>Deprecate <code translate=\"no\" dir=\"ltr\">gcloud preview app get-resource-limits</code>.</li>\n</ul>",
+      "date_published": "2015-09-23T00:00:00+00:00"
+    },
+    {
       "id": "0978_2015-09-16",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0978_2015-09-16",
       "title": "0.9.78 (2015-09-16)",
@@ -206,13 +213,6 @@
       "title": "0.9.48 (2015-02-18)",
       "content_html": "<ul>\n<li>A bug fix for running setup-managed-vms multiple times when using the Google\nContainer Registry</li>\n</ul>",
       "date_published": "2015-02-18T00:00:00+00:00"
-    },
-    {
-      "id": "0947_2015-02-11",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0947_2015-02-11",
-      "title": "0.9.47 (2015-02-11)",
-      "content_html": "<ul>\n<li>Bug fixes that allow tab completion to work for components in preview.</li>\n<li>GCloud now auto installs components based on command execution.</li>\n</ul>",
-      "date_published": "2015-02-11T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
