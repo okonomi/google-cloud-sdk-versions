@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0917_2014-02-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0917_2014-02-11",
+      "title": "0.9.17 (2014-02-11)",
+      "content_html": "<ul>\n<li>Updated all App Engine tools to 1.9.0</li>\n<li>Cloud SDK now distributed under the Apache v2.0 license.  Please see LICENSE\nfor more information.</li>\n</ul>",
+      "date_published": "2014-02-11T00:00:00+00:00"
+    },
+    {
       "id": "0916_2014-01-28",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0916_2014-01-28",
       "title": "0.9.16 (2014-01-28)",
