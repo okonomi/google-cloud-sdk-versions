@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0949_2015-02-25",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0949_2015-02-25",
+      "title": "0.9.49 (2015-02-25)",
+      "content_html": "<ul>\n<li>The Google Container Registry is now used by default for deployment of\nManaged VM applications. See here for more information:\n<a href=\"https://cloud.google.com/tools/container-registry/\">https://cloud.google.com/tools/container-registry/</a>\n</li>\n<li>We've increased the speed of the \"image push\" phase of Managed VM\ndeployments.</li>\n<li>The heavy lifting of retrieving the Go toolchain has been moved into the\nbase Go Docker image which dramatically reduces the bandwidth consumed\nlocally when running and deploying your images. You must delete your\nDockerfile to pick up the changes.</li>\n<li>We've fixed several bugs related to port forwarding in the local\ndevappserver.</li>\n</ul>",
+      "date_published": "2015-02-25T00:00:00+00:00"
+    },
+    {
       "id": "0948_2015-02-18",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0948_2015-02-18",
       "title": "0.9.48 (2015-02-18)",
@@ -206,13 +213,6 @@
       "title": "0.9.19 (2014-03-19)",
       "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
       "date_published": "2014-03-19T00:00:00+00:00"
-    },
-    {
-      "id": "0918_2014-03-05",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0918_2014-03-05",
-      "title": "0.9.18 (2014-03-05)",
-      "content_html": "<ul>\n<li>New 'gcloud init' command\n<ul>\n<li>Crpace for your project with a git clone of your Google\nhosted repository.</li>\n</ul>\n</li>\n<li>Updated gcutil to 1.14.0</li>\n</ul>",
-      "date_published": "2014-03-05T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
