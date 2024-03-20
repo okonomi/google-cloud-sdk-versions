@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0951_2015-03-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0951_2015-03-11",
+      "title": "0.9.51 (2015-03-11)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2015-03-11T00:00:00+00:00"
+    },
+    {
       "id": "0950_2015-03-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0950_2015-03-04",
       "title": "0.9.50 (2015-03-04)",
@@ -206,13 +213,6 @@
       "title": "0.9.21 (2014-04-09)",
       "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
       "date_published": "2014-04-09T00:00:00+00:00"
-    },
-    {
-      "id": "0920_2014-03-24",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0920_2014-03-24",
-      "title": "0.9.20 (2014-03-24)",
-      "content_html": "<ul>\n<li>Minor updates and bug fixes.</li>\n</ul>",
-      "date_published": "2014-03-24T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"

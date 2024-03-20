@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0983_2015-10-21",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0983_2015-10-21",
+      "title": "0.9.83 (2015-10-21)",
+      "content_html": "<h3 id=\"app_engine_126\" data-text=\"App Engine\" tabindex=\"-1\">App Engine</h3><ul>\n<li>In a future release, the <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> command will no longer\nsupport deploying multiple modules in the same invocation.</li>\n</ul><h3 id=\"compute_7\" data-text=\"Compute\" tabindex=\"-1\">Compute</h3><ul>\n<li><p>Ubuntu 14.10 is end of life: https://wiki.ubuntu.com/Releases</p></li>\n<li><p>Fixed external issue <a href=\"https://issuetracker.google.com/issues/35906370\">#291</a>,\nrelated to handling network addresses on Windows.</p></li>\n</ul><h3 id=\"container_engine_6\" data-text=\"Container Engine\" tabindex=\"-1\">Container Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud container clusters list</code> now displays the current number of nodes\nfor the cluster.</li>\n</ul><h3 id=\"windows_support_3\" data-text=\"Windows support\" tabindex=\"-1\">Windows support</h3><ul>\n<li>\n<p>When running Cloud SDK tools from PowerShell the <code translate=\"no\" dir=\"ltr\">gcloud-ps.ps1</code> wrapper\nscripts now can be used which no longer call to <code translate=\"no\" dir=\"ltr\">cmd.exe</code>. Using <code translate=\"no\" dir=\"ltr\">gcloud-ps</code>,\ncomplex arguments can be passed without escaping for Windows command line.\nUsing <code translate=\"no\" dir=\"ltr\">gcloud</code>, the following command would be correctly escaped when running\ngcloud in PowerShell:</p>\n\n<p>gcloud fun --arg='\"test ^&lt; 123\"'</p>\n\n<p>With the new <code translate=\"no\" dir=\"ltr\">gcloud-ps</code>, the same command can be simply written as:</p>\n\n<p>gcloud-ps fun --arg='test &lt; 123'</p>\n\n<p>Permissions to run PowerShell scripts must be given to PowerShell before these\nwill work. Permissions can be changed with\n<code translate=\"no\" dir=\"ltr\">\"Set-ExecutionPolicy RemoteSigned\"</code>.</p>\n</li>\n</ul>",
+      "date_published": "2015-10-21T00:00:00+00:00"
+    },
+    {
       "id": "0982_2015-10-14",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0982_2015-10-14",
       "title": "0.9.82 (2015-10-14)",
@@ -206,13 +213,6 @@
       "title": "0.9.52 (2015-03-18)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2015-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "0951_2015-03-11",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0951_2015-03-11",
-      "title": "0.9.51 (2015-03-11)",
-      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
-      "date_published": "2015-03-11T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/15.json"
