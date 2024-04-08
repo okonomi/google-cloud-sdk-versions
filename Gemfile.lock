@@ -9,7 +9,7 @@ GEM
     irb (1.11.1)
       rdoc
       reline (>= 0.4.2)
-    json (2.7.1)
+    json (2.7.2)
     nokogiri (1.16.2-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.2-x86_64-darwin)
