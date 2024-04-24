@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0924_2014-05-07",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0924_2014-05-07",
+      "title": "0.9.24 (2014-05-07)",
+      "content_html": "<ul>\n<li>gcloud now has App Engine and Cloud Datastore integration.\n<ul>\n<li>Commands can be found under <code translate=\"no\" dir=\"ltr\">gcloud preview app</code> and <code translate=\"no\" dir=\"ltr\">gcloud preview\ndatastore</code>\n</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2014-05-07T00:00:00+00:00"
+    },
+    {
       "id": "0923_2014-05-01",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0923_2014-05-01",
       "title": "0.9.23 (2014-05-01)",
