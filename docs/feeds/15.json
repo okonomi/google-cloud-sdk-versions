@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0962_2015-05-27",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0962_2015-05-27",
+      "title": "0.9.62 (2015-05-27)",
+      "content_html": "<ul>\n<li>Not released.</li>\n</ul>",
+      "date_published": "2015-05-27T00:00:00+00:00"
+    },
+    {
       "id": "0961_2015-05-20",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0961_2015-05-20",
       "title": "0.9.61 (2015-05-20)",
@@ -206,13 +213,6 @@
       "title": "0.9.30 (2014-08-19)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2014-08-19T00:00:00+00:00"
-    },
-    {
-      "id": "0929_2014-08-11",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0929_2014-08-11",
-      "title": "0.9.29 (2014-08-11)",
-      "content_html": "<ul>\n<li>The compute component is now in General Availability.\n<ul>\n<li>Added new 'compute/zone' and 'compute/region' properties that\ncan be used to set a default zone and region. To set the\nproperties, run 'gcloud config set compute/zone ZONE' and 'gcloud\nconfig set compute/region REGION'.</li>\n<li>Added support for overriding disk auto-deletion during instance\ndeletion.</li>\n<li>Updated the output of commands that mutate resources to be more\nhuman-friendly. The --format flag can be used for more verbose\noutput.</li>\n<li>Replaced all 'get' subcommands with 'describe' subcommands (e.g.,\n'gcloud compute instances get' has been replaced with 'gcloud\ncompute instances describe').</li>\n<li>Renamed the 'firewalls' collection to 'firewall-rules'.</li>\n<li>Added support to the 'addresses' collection for interacting with\nglobal addresses.</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2014-08-11T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"

@@ -1,0 +1,15 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Google Cloud CLI Release Notes",
+  "home_page_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/",
+  "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
+  "items": [
+    {
+      "id": "090_2013-04-09",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#090_2013-04-09",
+      "title": "0.9.0 (2013-04-09)",
+      "content_html": "<ul>\n<li>Developer preview release of the Cloud SDK</li>\n<li>Includes command line tools for:\n<ul>\n<li>App Engine</li>\n<li>BigQuery</li>\n<li>Compute Engine</li>\n<li>Cloud Storage</li>\n<li>Cloud SQL</li>\n</ul>\n</li>\n<li>Includes the new gauth tool for one time common authentication for all tools</li>\n</ul>",
+      "date_published": "2013-04-09T00:00:00+00:00"
+    }
+  ]
+}
