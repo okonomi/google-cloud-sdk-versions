@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "091_2013-04-10",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#091_2013-04-10",
+      "title": "0.9.1 (2013-04-10)",
+      "content_html": "<ul>\n<li>Fixed an issue with gauth that occurred when running a command before\ncredentials were created.</li>\n</ul>",
+      "date_published": "2013-04-10T00:00:00+00:00"
+    },
+    {
       "id": "090_2013-04-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#090_2013-04-09",
       "title": "0.9.0 (2013-04-09)",
