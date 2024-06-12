@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0964_2015-06-10",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0964_2015-06-10",
+      "title": "0.9.64 (2015-06-10)",
+      "content_html": "<ul>\n<li>New commands\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute scp</code> for secure copy.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics</code> commands (on datasets).</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha source list</code> to lists project repositories.</li>\n</ul>\n</li>\n<li>kubectl will no longer be installed by default.</li>\n<li>Bug fixes for HTTPS load balancing.</li>\n<li>The help pager is $PAGER or less(1) if available, otherwise a builtin pager.</li>\n<li>Update of gsutil component to version 4.13.</li>\n</ul>",
+      "date_published": "2015-06-10T00:00:00+00:00"
+    },
+    {
       "id": "0963_2015-06-03",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0963_2015-06-03",
       "title": "0.9.63 (2015-06-03)",
@@ -206,13 +213,6 @@
       "title": "0.9.32 (2014-09-16)",
       "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
       "date_published": "2014-09-16T00:00:00+00:00"
-    },
-    {
-      "id": "0931_2014-09-02",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0931_2014-09-02",
-      "title": "0.9.31 (2014-09-02)",
-      "content_html": "<ul>\n<li>Added support for creating and maintaining Cloud SQL read replica instances.\n<ul>\n<li>Added --master-instance-name property that can be set during replica\ncreation to indicate the replication master for the read replica\ninstance.</li>\n<li>Added --enable-database-replication, --no-enable-database-replication\nflags that can be used to start, stop replication for the read replica\ninstance.</li>\n<li>Added 'promote-replica' command that promotes a read replica instance\ninto a stand-alone Cloud SQL instance.</li>\n</ul>\n</li>\n<li>Added several new features to the compute component:\n<ul>\n<li>Implemented new subcommands for interacting with HTTP load balancing:\n<ul>\n<li>gcloud compute backend-services update</li>\n<li>gcloud compute url-maps add-host-rule</li>\n<li>gcloud compute url-maps add-path-matcher</li>\n<li>gcloud compute url-maps remove-host-rule</li>\n<li>gcloud compute url-maps remove-path-matcher</li>\n<li>gcloud compute url-maps set-default-service</li>\n</ul>\n</li>\n<li>Added support for automatically generating initial Windows username and\npassword when creating a virtual machine instance from a Windows\nimage or a disk initializaed from a Windows image.</li>\n<li>Added a new scope alias for Cloud SQL administration: 'sql-admin'.</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2014-09-02T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
