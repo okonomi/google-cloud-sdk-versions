@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0934_2014-10-14",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0934_2014-10-14",
+      "title": "0.9.34 (2014-10-14)",
+      "content_html": "<ul>\n<li>Added support for Google Compute Engine Instance Templates in\ncompute component.</li>\n<li>Launch of instance-groups and managed-instance-groups in\npreview component.</li>\n</ul>",
+      "date_published": "2014-10-14T00:00:00+00:00"
+    },
+    {
       "id": "0933_2014-09-30",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0933_2014-09-30",
       "title": "0.9.33 (2014-09-30)",
@@ -206,13 +213,6 @@
       "title": "0.9.6 (2013-07-17)",
       "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.2</li>\n<li>Upgraded bq to 2.0.14</li>\n<li>Upgraded gcutil to 1.8.2</li>\n<li>Upgraded gsutil to 3.33</li>\n</ul>",
       "date_published": "2013-07-17T00:00:00+00:00"
-    },
-    {
-      "id": "095_2013-06-18",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#095_2013-06-18",
-      "title": "0.9.5 (2013-06-18)",
-      "content_html": "<ul>\n<li>App Engine Hotfix</li>\n</ul>",
-      "date_published": "2013-06-18T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"

@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "15101_2017-04-14",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#15101_2017-04-14",
+      "title": "151.0.1 (2017-04-14)",
+      "content_html": "<h3 id=\"cloud_sdk_55\" data-text=\"Cloud SDK\" tabindex=\"-1\">Cloud SDK</h3><ul>\n<li>Fixed issue in which some users could not use the Windows installer or\n\"bundled python\" version of the Cloud SDK for installation.</li>\n</ul>",
+      "date_published": "2017-04-14T00:00:00+00:00"
+    },
+    {
       "id": "15100_2017-04-12",
       "url": "https://cloud.google.com/sdk/docs/release-notes#15100_2017-04-12",
       "title": "151.0.0 (2017-04-12)",
@@ -206,13 +213,6 @@
       "title": "127.0.0 (2016-09-21)",
       "content_html": "<h3 id=\"google_bigquery\" data-text=\"Google BigQuery\" tabindex=\"-1\">Google BigQuery</h3><ul>\n<li>New load/query option in BigQuery client to support schema update within a\nload/query job.</li>\n<li>New query option in BigQuery client to specify query parameters in\nStandard SQL.</li>\n</ul><h3 id=\"google_cloud_dataproc_11\" data-text=\"Google Cloud Dataproc\" tabindex=\"-1\">Google Cloud Dataproc</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud dataproc clusters create</code> flag <code translate=\"no\" dir=\"ltr\">--preemptible-worker-boot-disk-size</code>\ncan be used to specify future preemptible VM boot disk size.</li>\n</ul><h3 id=\"google_container_engine_36\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li>Update kubectl to version 1.3.7.</li>\n</ul><h3 id=\"google_cloud_ml_14\" data-text=\"Google Cloud ML\" tabindex=\"-1\">Google Cloud ML</h3><ul>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud beta ml predict</code> command to do online prediction.</li>\n<li>New <code translate=\"no\" dir=\"ltr\">gcloud beta ml jobs submit prediction</code> command to submit batch\nprediction job.</li>\n</ul><h3 id=\"google_cloud_sql_22\" data-text=\"Google Cloud SQL\" tabindex=\"-1\">Google Cloud SQL</h3><ul>\n<li>New arguments to beta sql instances create/patch commands for Cloud SQL\nSecond Generation instances:\n<ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">--storage-size</code> Sets storage size in GB.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-release-channel</code> Sets production or preview channel for\nmaintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-day</code> Sets day of week for maintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-hour</code> Sets hour of day for maintenance window.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--maintenance-window-any</code> (patch only) Clears maintenance window setting.</li>\n</ul>\n</li>\n</ul>",
       "date_published": "2016-09-21T00:00:00+00:00"
-    },
-    {
-      "id": "12600_2016-09-14",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#12600_2016-09-14",
-      "title": "126.0.0 (2016-09-14)",
-      "content_html": "<h3 id=\"breaking_changes_193\" data-text=\"Breaking changes\" tabindex=\"-1\">Breaking changes</h3><ul>\n<li>\n<p>The HTTP error messages for these command groups have changed to a common\nformat:</p>\n\n<ul>\n<li><code translate=\"no\" dir=\"ltr\">gcloud dns</code></li>\n<li><code translate=\"no\" dir=\"ltr\">gcloud genomics</code></li>\n<li><code translate=\"no\" dir=\"ltr\">gcloud logging</code></li>\n</ul>\n\n<p>Some command groups have not changed yet. That should happen in the next\nrelease. You can use <code translate=\"no\" dir=\"ltr\">--log-http</code> to see the details of all HTTP requests and\nresponses on the standard error.</p>\n</li>\n</ul><h3 id=\"google_compute_engine_46\" data-text=\"Google Compute Engine\" tabindex=\"-1\">Google Compute Engine</h3><ul>\n<li>Add <code translate=\"no\" dir=\"ltr\">--connection-draining-timeout</code> flag to <code translate=\"no\" dir=\"ltr\">gcloud compute backend-services\n{create,update}</code> commands.</li>\n<li>Added <code translate=\"no\" dir=\"ltr\">gcloud alpha compute instance-groups managed update-instances</code> and\n<code translate=\"no\" dir=\"ltr\">stop-proactive-update-instances</code> commands.</li>\n</ul><h3 id=\"google_cloud_debugger_2\" data-text=\"Google Cloud Debugger\" tabindex=\"-1\">Google Cloud Debugger</h3><ul>\n<li>The <code translate=\"no\" dir=\"ltr\">gcloud beta debug source gen-repo-info-file</code> command, which generates\nrepository information files for the Stackdriver Debugger, is now available.</li>\n</ul><h3 id=\"google_container_registry_13\" data-text=\"Google Container Registry\" tabindex=\"-1\">Google Container Registry</h3><ul>\n<li>The <code translate=\"no\" dir=\"ltr\">gcloud container images</code> command group is now available in the beta\nrelease track.</li>\n</ul><h3 id=\"cloud_sdk_64\" data-text=\"Cloud SDK\" tabindex=\"-1\">Cloud SDK</h3><ul>\n<li>Added <code translate=\"no\" dir=\"ltr\">core/custom_ca_certs_file</code> property to allow use of a custom CA\ncertificate file.</li>\n</ul><h3 id=\"emulators_3\" data-text=\"Emulators\" tabindex=\"-1\">Emulators</h3><ul>\n<li>Cloud Datastore emulator now supports proto-over-HTTP and JSON for the v1 API.\nThis version of the emulator resolves the deserialization issues in 123.0.0.</li>\n</ul>",
-      "date_published": "2016-09-14T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/13.json"
