@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0935_2014-11-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0935_2014-11-04",
+      "title": "0.9.35 (2014-11-04)",
+      "content_html": "<ul>\n<li>Added support for Google Container Engine. It is available under the\n'gcloud preview container' command group.</li>\n</ul>",
+      "date_published": "2014-11-04T00:00:00+00:00"
+    },
+    {
       "id": "0934_2014-10-14",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0934_2014-10-14",
       "title": "0.9.34 (2014-10-14)",
@@ -206,13 +213,6 @@
       "title": "0.9.7 (2013-08-06)",
       "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.3</li>\n<li>Upgraded gsutil to 3.34</li>\n</ul>",
       "date_published": "2013-08-06T00:00:00+00:00"
-    },
-    {
-      "id": "096_2013-07-17",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#096_2013-07-17",
-      "title": "0.9.6 (2013-07-17)",
-      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.2</li>\n<li>Upgraded bq to 2.0.14</li>\n<li>Upgraded gcutil to 1.8.2</li>\n<li>Upgraded gsutil to 3.33</li>\n</ul>",
-      "date_published": "2013-07-17T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"
