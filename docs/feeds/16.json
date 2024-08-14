@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0940_2014-12-09",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0940_2014-12-09",
+      "title": "0.9.40 (2014-12-09)",
+      "content_html": "<ul>\n<li>Bug Fixes.</li>\n</ul>",
+      "date_published": "2014-12-09T00:00:00+00:00"
+    },
+    {
       "id": "0939_2014-12-03",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0939_2014-12-03",
       "title": "0.9.39 (2014-12-03)",
@@ -206,13 +213,6 @@
       "title": "0.9.11 (2013-10-28)",
       "content_html": "<ul>\n<li>The Cloud SDK is now distributed using a new component manager.\n<ul>\n<li>Download a small initial zip file, then install the tools you want on\ndemand.</li>\n<li>Updates to tools in the Cloud SDK are performed in-place, incrementally,\nwithout the need to re-download the entire SDK.</li>\n<li>The component manager allows you to see when updates are available.</li>\n<li>Run 'gcloud components --help' for more information.</li>\n</ul>\n</li>\n<li>New authentication features:\n<ul>\n<li>The gauth command has been replaced by 'gcloud auth'.  Run\n'gcloud auth --help' for more information.</li>\n<li>It now supports authenticating multiple users simultaneously.  Use\n'gcloud config set account <account>' to choose your active account.</account>\n</li>\n</ul>\n</li>\n<li>For more information, please see:\n<a href=\"https://developers.google.com/cloud/sdk/gettingstarted\">https://developers.google.com/cloud/sdk/gettingstarted</a>\n</li>\n</ul>",
       "date_published": "2013-10-28T00:00:00+00:00"
-    },
-    {
-      "id": "0910_2013-10-20",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0910_2013-10-20",
-      "title": "0.9.10 (2013-10-20)",
-      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.6.</li>\n<li>Upgraded bq to 2.0.16.</li>\n<li>Upgraded gcutil to 1.9.1.</li>\n<li>A few improvements to the gauth web flow.</li>\n</ul>",
-      "date_published": "2013-10-20T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"
