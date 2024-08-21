@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0973_2015-08-12",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0973_2015-08-12",
+      "title": "0.9.73 (2015-08-12)",
+      "content_html": "<ul>\n<li>gcloud sql instances create default to MySQL 5.6</li>\n<li>gcloud beta container get-credentials renamed to gcloud beta container\nclusters get-credentials</li>\n<li>New commands\n<ul>\n<li>gcloud beta projects ...</li>\n<li>gcloud alpha genomics callsets ...</li>\n<li>gcloud beta emulators datastore ...</li>\n<li>gcloud beta container get-server-config</li>\n<li>gcloud alpha config configurations</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2015-08-12T00:00:00+00:00"
+    },
+    {
       "id": "0972_2015-08-05",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0972_2015-08-05",
       "title": "0.9.72 (2015-08-05)",
@@ -206,13 +213,6 @@
       "title": "0.9.42 (2015-01-08)",
       "content_html": "<ul>\n<li>Support for local SSDs in instance templates for gcloud compute.</li>\n</ul>",
       "date_published": "2015-01-08T00:00:00+00:00"
-    },
-    {
-      "id": "0941_2014-12-17",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0941_2014-12-17",
-      "title": "0.9.41 (2014-12-17)",
-      "content_html": "<ul>\n<li>Progress bars.</li>\n<li>Compute Instances start and stop commands.</li>\n</ul>",
-      "date_published": "2014-12-17T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
