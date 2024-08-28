@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0974_2015-08-19",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0974_2015-08-19",
+      "title": "0.9.74 (2015-08-19)",
+      "content_html": "<ul>\n<li>New list and import commands under <code translate=\"no\" dir=\"ltr\">gcloud alpha genomics variants</code>.</li>\n<li>Removed <code translate=\"no\" dir=\"ltr\">--remote</code> flag. Instead, please use the <code translate=\"no\" dir=\"ltr\">--docker-build=remote</code>\nflag (or use <code translate=\"no\" dir=\"ltr\">--docker-build=local</code> to force a local build).</li>\n<li>In this release, Docker builds are hosted by default. To opt-in to the old\nbehavior, please use the <code translate=\"no\" dir=\"ltr\">--docker-build=local</code> flag.</li>\n</ul>",
+      "date_published": "2015-08-19T00:00:00+00:00"
+    },
+    {
       "id": "0973_2015-08-12",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0973_2015-08-12",
       "title": "0.9.73 (2015-08-12)",
@@ -206,13 +213,6 @@
       "title": "0.9.43 (2015-01-14)",
       "content_html": "<ul>\n<li>Support added for authenticating service accounts with JSON keys. If using\nJSON keys, PyOpenSSL is no longer a dependency. Refer to help docs here:\n<a href=\"https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account\">https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account</a>.</li>\n</ul>",
       "date_published": "2015-01-14T00:00:00+00:00"
-    },
-    {
-      "id": "0942_2015-01-08",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0942_2015-01-08",
-      "title": "0.9.42 (2015-01-08)",
-      "content_html": "<ul>\n<li>Support for local SSDs in instance templates for gcloud compute.</li>\n</ul>",
-      "date_published": "2015-01-08T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"

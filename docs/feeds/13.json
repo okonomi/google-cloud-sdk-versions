@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "13300_2016-11-02",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#13300_2016-11-02",
+      "title": "133.0.0 (2016-11-02)",
+      "content_html": "<h3 id=\"google_cloud_container_builder_9\" data-text=\"Google Cloud Container Builder\" tabindex=\"-1\">Google Cloud Container Builder</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha container builds</code> promoted to beta. The following has changed:\n<ul>\n<li>The 'create' command is now called 'submit'.</li>\n<li>The 'stream-logs' command is now called 'log', and will only stream the log\nif the '--stream' flag is used. Otherwise, it will print only the log\ncontents available at the time the command was run.</li>\n</ul>\n</li>\n</ul><p>The alpha commands will remain, as is, until at least March of 2017.</p><h3 id=\"google_compute_engine_41\" data-text=\"Google Compute Engine\" tabindex=\"-1\">Google Compute Engine</h3><ul>\n<li><p>regional instance groups are now GA. <code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups managed</code></p></li>\n<li><p>Customer-Supplied Encryption Keys (CSEK) for image creation is now GA. See\nhttps://cloud.google.com/compute/docs/disks/customer-supplied-encryption for\ndetails.</p></li>\n</ul><h3 id=\"google_container_engine_30\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li>Update kubectl to version 1.4.4.</li>\n</ul>",
+      "date_published": "2016-11-02T00:00:00+00:00"
+    },
+    {
       "id": "13200_2016-10-26",
       "url": "https://cloud.google.com/sdk/docs/release-notes#13200_2016-10-26",
       "title": "132.0.0 (2016-10-26)",
@@ -206,13 +213,6 @@
       "title": "104.0.0 (2016-04-06)",
       "content_html": "<h3 id=\"cloud_sdk_73\" data-text=\"Cloud SDK\" tabindex=\"-1\">Cloud SDK</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud init</code> no longer offers to clone\n<a href=\"https://cloud.google.com/source-repositories/docs/\">Google Cloud Repositories</a>.\nPlease use <code translate=\"no\" dir=\"ltr\">gcloud source repos clone</code> at   any time after running\n<code translate=\"no\" dir=\"ltr\">gcloud init</code>.</li>\n</ul><h3 id=\"google_compute_engine_63\" data-text=\"Google Compute Engine\" tabindex=\"-1\">Google Compute Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta compute</code> commands now support image families.</li>\n</ul><h3 id=\"google_app_engine_58\" data-text=\"Google App Engine\" tabindex=\"-1\">Google App Engine</h3><ul>\n<li>Users of <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> can set the timeout for the\nContainer Builder service using the app/cloud_build_timeout\nproperty.</li>\n</ul><h3 id=\"google_container_engine_53\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li><p>kubectl component is now available for Windows (64-bit only).</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud alpha container clusters update</code> now allows enabling/disabling\naddons for Container Engine clusters via <code translate=\"no\" dir=\"ltr\">--update-addons</code> flag.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud container clusters create</code> now supports disabling\nHPA and Ingress controller addons via <code translate=\"no\" dir=\"ltr\">--disable-addons</code> flag.</p></li>\n</ul><h3 id=\"google_genomics_5\" data-text=\"Google Genomics\" tabindex=\"-1\">Google Genomics</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud alpha genomics variants import</code> now supports configurable variant info\nfield merging via the info_merge_config command line flag.</li>\n</ul>",
       "date_published": "2016-04-06T00:00:00+00:00"
-    },
-    {
-      "id": "10300_2016-03-30",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#10300_2016-03-30",
-      "title": "103.0.0 (2016-03-30)",
-      "content_html": "<h3 id=\"google_cloud_storage_11\" data-text=\"Google Cloud Storage\" tabindex=\"-1\">Google Cloud Storage</h3><ul>\n<li>Update gsutil component to 4.18 (https://github.com/GoogleCloudPlatform/gsutil/blob/v4.18/CHANGES.md)</li>\n</ul><h3 id=\"google_app_engine_59\" data-text=\"Google App Engine\" tabindex=\"-1\">Google App Engine</h3><ul>\n<li>Add fingerprinting support for PHP applications. You can now run\n<code translate=\"no\" dir=\"ltr\">gcloud preview app gen-config</code> to auto-generate the necessary configuration\nfor deploying PHP applications to the App Engine Flexible Environment.</li>\n</ul><h3 id=\"google_container_engine_54\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li>gcloud container clusters create|get-credentials will warn/error\nrespectively if the HOME env var isn't set. The variable\nis required to store kubectl credentials (kubeconfig).</li>\n</ul><h3 id=\"google_compute_engine_64\" data-text=\"Google Compute Engine\" tabindex=\"-1\">Google Compute Engine</h3><ul>\n<li>Enable support for: gcloud compute disks resize.</li>\n</ul>",
-      "date_published": "2016-03-30T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/14.json"
