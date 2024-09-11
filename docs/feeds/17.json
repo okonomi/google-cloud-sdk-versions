@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "09131_2013-12-04",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#09131_2013-12-04",
+      "title": "0.9.13.1 (2013-12-04)",
+      "content_html": "<ul>\n<li>Validate queries to metadata server.</li>\n</ul>",
+      "date_published": "2013-12-04T00:00:00+00:00"
+    },
+    {
       "id": "0913_2013-11-19",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0913_2013-11-19",
       "title": "0.9.13 (2013-11-19)",

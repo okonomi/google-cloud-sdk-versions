@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0976_2015-09-02",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0976_2015-09-02",
+      "title": "0.9.76 (2015-09-02)",
+      "content_html": "<ul>\n<li>Update gsutil component to 4.14.</li>\n<li>Resource views commands have moved from preview to alpha. Please use <code translate=\"no\" dir=\"ltr\">gcloud\nalpha compute resource-views</code> in place of <code translate=\"no\" dir=\"ltr\">gcloud preview resource-views</code>.</li>\n<li>Replica pool commands have moved from preview to alpha. Please use <code translate=\"no\" dir=\"ltr\">gcloud\nalpha compute replica-pools</code> in place of <code translate=\"no\" dir=\"ltr\">gcloud preview replica-pools</code>.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud beta source repo</code> was renamed to <code translate=\"no\" dir=\"ltr\">gcloud beta source repos</code>\n</li>\n<li>Created google-cloud-sdk-announce@googlegroups.com\n<a href=\"https://groups.google.com/d/forum/google-cloud-sdk-announce\">https://groups.google.com/d/forum/google-cloud-sdk-announce</a> email group to\nannounce new releases and other important information.</li>\n<li>'gcloud alpha init' command is now also in beta.</li>\n<li>Add target size of managed instance group for \"compute instance-groups\nmanaged list\" command.</li>\n<li>Fixed the removal of platform-specific components when running <code translate=\"no\" dir=\"ltr\">gcloud\ncomponents remove</code>.</li>\n<li>Fixed a bug related to checking for SDK updates when the SDK is installed as\nroot (like on Debian Compute Engine images).\n<ul>\n<li>Affected users should now see less frequent update messages and overall\nimproved gcloud performance</li>\n</ul>\n</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> won't update local images automatically anymore.</li>\n</ul>",
+      "date_published": "2015-09-02T00:00:00+00:00"
+    },
+    {
       "id": "0975_2015-08-26",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0975_2015-08-26",
       "title": "0.9.75 (2015-08-26)",
@@ -206,13 +213,6 @@
       "title": "0.9.45 (2015-01-28)",
       "content_html": "<ul>\n<li>Several bug fixes in the Dockerfile generated for the 'go' runtime. Delete\nthe Dockerfile in your application directory and the Cloud SDK will copy the\nupdated Dockerfile on your next deployment.</li>\n<li>Several bug fixes related to flakiness in the setup-managed-vms command.</li>\n</ul>",
       "date_published": "2015-01-28T00:00:00+00:00"
-    },
-    {
-      "id": "0944_2015-01-21",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0944_2015-01-21",
-      "title": "0.9.44 (2015-01-21)",
-      "content_html": "<ul>\n<li>Fixes applied to the google/appengine-gobase image for managed VMs.</li>\n<li>Tab completion for gcloud SQL commands.</li>\n</ul>",
-      "date_published": "2015-01-21T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
