@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0977_2015-09-09",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0977_2015-09-09",
+      "title": "0.9.77 (2015-09-09)",
+      "content_html": "<ul>\n<li>gcloud preview logging is now gcloud beta logging.</li>\n<li>Update kubectl to version 1.0.5</li>\n<li>Windows Cloud SDK installer improvements:\n<ul>\n<li>Now allows changing the installation mode. You can choose between a\n\"current user\" installation and an \"all users\" installation.</li>\n<li>Now has an uninstaller and writes \"Add/Remove Programs\" uninstall\nentries.</li>\n</ul>\n</li>\n<li>Removal of unsupported --env-vars argument from gcloud preview app deploy.</li>\n<li>gcloud compute instance groups: Allow --named-ports flag to be empty and\nclean named ports in set-named-ports commands.</li>\n<li>Change in gcloud compute backend-services: introduce new flag\n--instance-group which takes advantage of new Instance Groups API.</li>\n</ul>",
+      "date_published": "2015-09-09T00:00:00+00:00"
+    },
+    {
       "id": "0976_2015-09-02",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0976_2015-09-02",
       "title": "0.9.76 (2015-09-02)",
@@ -206,13 +213,6 @@
       "title": "0.9.46 (2015-02-04)",
       "content_html": "<ul>\n<li>We've made significant improvements to the stability and speed of deploying\nManaged VMs by leveraging the new Google Container Registry. See this post\nfor details on how to try it out today:\n<a href=\"https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM\">https://groups.google.com/forum/#!topic/google-appengine/c543NHZGhKM</a>\n</li>\n</ul>",
       "date_published": "2015-02-04T00:00:00+00:00"
-    },
-    {
-      "id": "0945_2015-01-28",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0945_2015-01-28",
-      "title": "0.9.45 (2015-01-28)",
-      "content_html": "<ul>\n<li>Several bug fixes in the Dockerfile generated for the 'go' runtime. Delete\nthe Dockerfile in your application directory and the Cloud SDK will copy the\nupdated Dockerfile on your next deployment.</li>\n<li>Several bug fixes related to flakiness in the setup-managed-vms command.</li>\n</ul>",
-      "date_published": "2015-01-28T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
