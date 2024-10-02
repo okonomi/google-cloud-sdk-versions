@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0947_2015-02-11",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0947_2015-02-11",
+      "title": "0.9.47 (2015-02-11)",
+      "content_html": "<ul>\n<li>Bug fixes that allow tab completion to work for components in preview.</li>\n<li>GCloud now auto installs components based on command execution.</li>\n</ul>",
+      "date_published": "2015-02-11T00:00:00+00:00"
+    },
+    {
       "id": "0946_2015-02-04",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0946_2015-02-04",
       "title": "0.9.46 (2015-02-04)",
@@ -206,13 +213,6 @@
       "title": "0.9.17 (2014-02-11)",
       "content_html": "<ul>\n<li>Updated all App Engine tools to 1.9.0</li>\n<li>Cloud SDK now distributed under the Apache v2.0 license.  Please see LICENSE\nfor more information.</li>\n</ul>",
       "date_published": "2014-02-11T00:00:00+00:00"
-    },
-    {
-      "id": "0916_2014-01-28",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0916_2014-01-28",
-      "title": "0.9.16 (2014-01-28)",
-      "content_html": "<ul>\n<li>Added Python2.6 compatibility.</li>\n<li>Added ability to symlink directly to scripts in the bin/ directory.</li>\n<li>Fixed bug in default setup of credentials when on a Compute Engine VM.</li>\n</ul>",
-      "date_published": "2014-01-28T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"
