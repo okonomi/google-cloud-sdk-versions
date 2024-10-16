@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0918_2014-03-05",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0918_2014-03-05",
+      "title": "0.9.18 (2014-03-05)",
+      "content_html": "<ul>\n<li>New 'gcloud init' command\n<ul>\n<li>Crpace for your project with a git clone of your Google\nhosted repository.</li>\n</ul>\n</li>\n<li>Updated gcutil to 1.14.0</li>\n</ul>",
+      "date_published": "2014-03-05T00:00:00+00:00"
+    },
+    {
       "id": "0917_2014-02-11",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0917_2014-02-11",
       "title": "0.9.17 (2014-02-11)",
