@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0922_2014-04-23",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0922_2014-04-23",
+      "title": "0.9.22 (2014-04-23)",
+      "content_html": "<ul>\n<li>New 'gcloud help command'\n<ul>\n<li>Displays man style extended help for commands (where available).</li>\n</ul>\n</li>\n<li>New 'gcloud auth activate-service-account' command\n<ul>\n<li>Used to authenticate with gcloud using a service account key file.</li>\n<li>See: <a href=\"https://developers.google.com/storage/docs/authentication#service_accounts\">https://developers.google.com/storage/docs/authentication#service_accounts</a>\n</li>\n</ul>\n</li>\n<li>Bug fixes and improved error handling.</li>\n</ul>",
+      "date_published": "2014-04-23T00:00:00+00:00"
+    },
+    {
       "id": "0921_2014-04-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0921_2014-04-09",
       "title": "0.9.21 (2014-04-09)",
