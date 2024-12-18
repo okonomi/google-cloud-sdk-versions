@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0988_2015-11-25",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0988_2015-11-25",
+      "title": "0.9.88 (2015-11-25)",
+      "content_html": "<h3 id=\"breaking_changes_224\" data-text=\"Breaking Changes\" tabindex=\"-1\">Breaking Changes</h3><ul>\n<li><p>The <code translate=\"no\" dir=\"ltr\">gcloud preview app run</code> command has now been removed. Please use the\nbundled <code translate=\"no\" dir=\"ltr\">dev_appserver.py</code> script directly instead.</p></li>\n<li><p>App Engine: The 'version' and 'application' fields in module and configuration\nfiles are now illegal. Project name should instead be specified either by\n<code translate=\"no\" dir=\"ltr\">gcloud config set project MY_PROJECT</code> or by setting the <code translate=\"no\" dir=\"ltr\">--project</code> flag on\nindividual command executions. Versions are generated automatically by default\nbut can also be manually specified by setting the <code translate=\"no\" dir=\"ltr\">--version</code> flag on\nindividual command executions.</p></li>\n</ul><h3 id=\"app_engine_133\" data-text=\"App Engine\" tabindex=\"-1\">App Engine</h3><ul>\n<li><p>Don't do runtime identification for custom runtimes during deploy. This fixes\nissue <a href=\"https://issuetracker.google.com/issues/35906466\">#387</a>.</p></li>\n<li><p>The <code translate=\"no\" dir=\"ltr\">dev_appserver.py</code> script no longer requires the installation of all App\nEngine components. It will install only the necessary ones at run time.\nFixes <a href=\"https://issuetracker.google.com/issues/35906352\">#273</a></p></li>\n</ul><h3 id=\"core\" data-text=\"Core\" tabindex=\"-1\">Core</h3><ul>\n<li><p>Added the <code translate=\"no\" dir=\"ltr\">gcloud components install</code> command.  This allows you to install\nmissing components at the version of the SDK you currently have (it does not\nupdate your SDK installation).  <code translate=\"no\" dir=\"ltr\">gcloud components update</code> should now only be\nused to update your SDK to the latest version.</p></li>\n<li><p>Fixes <a href=\"https://issuetracker.google.com/issues/35906372\">#293</a> related SSL\ncertificate validation issues.</p></li>\n<li><p>Use zsh builtins in path.zsh.inc for faster/cleaner shell startup.</p></li>\n</ul>",
+      "date_published": "2015-11-25T00:00:00+00:00"
+    },
+    {
       "id": "0987_2015-11-18",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0987_2015-11-18",
       "title": "0.9.87 (2015-11-18)",
@@ -206,13 +213,6 @@
       "title": "0.9.59 (2015-05-06)",
       "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
       "date_published": "2015-05-06T00:00:00+00:00"
-    },
-    {
-      "id": "0958_2015-04-29",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0958_2015-04-29",
-      "title": "0.9.58 (2015-04-29)",
-      "content_html": "<ul>\n<li>gcloud alpha bigquery launch.</li>\n<li>Better error reporting in Customer Supplied Encryption Key files.</li>\n<li>Bug fixes.</li>\n</ul>",
-      "date_published": "2015-04-29T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
