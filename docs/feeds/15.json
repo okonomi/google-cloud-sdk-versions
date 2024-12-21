@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0989_2015-12-02",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0989_2015-12-02",
+      "title": "0.9.89 (2015-12-02)",
+      "content_html": "<h3 id=\"breaking_changes_223\" data-text=\"Breaking Changes\" tabindex=\"-1\">Breaking Changes</h3><ul>\n<li><p>Removed flag <code translate=\"no\" dir=\"ltr\">--container-ipv4-cidr</code> for <code translate=\"no\" dir=\"ltr\">gcloud container clusters create</code>;\nplease use <code translate=\"no\" dir=\"ltr\">--cluster-ipv4-cidr</code> instead.</p></li>\n<li><p>Renamed <code translate=\"no\" dir=\"ltr\">gcloud alpha compute vpn-tunnels create --ike-networks</code> to\n<code translate=\"no\" dir=\"ltr\">--local-traffic-selector</code>.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud alpha compute resource-views</code> commands will soon be removed. Please\nuse <code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups unmanaged</code> commands instead.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud alpha compute replica-pools</code> commands will soon be removed. Please\nuse <code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups</code> commands instead.</p></li>\n</ul><h3 id=\"gcloud_core\" data-text=\"gcloud Core\" tabindex=\"-1\">\n<code translate=\"no\" dir=\"ltr\">gcloud</code> Core</h3><ul>\n<li>Changed behavior of <code translate=\"no\" dir=\"ltr\">gcloud init</code> git repository clone option. It now takes\nas input a path to the destination directory for the repository,\nrather than the parent directory of the repository destination.</li>\n</ul><h3 id=\"bigquery_81\" data-text=\"BigQuery\" tabindex=\"-1\">BigQuery</h3><ul>\n<li>Fixed failure in <code translate=\"no\" dir=\"ltr\">gcloud alpha bq query \"select * from ...\"</code> command\nwhile displaying query results.</li>\n</ul><h3 id=\"compute_2\" data-text=\"Compute\" tabindex=\"-1\">Compute</h3><ul>\n<li><p>Fixed <code translate=\"no\" dir=\"ltr\">gcloud alpha compute instances set-machine-type</code> failure when\nsupplying custom cpu/custom memory, but no zone.</p></li>\n<li><p>Added a new scope alias for Cloud Monitoring: <code translate=\"no\" dir=\"ltr\">monitoring-write</code>. This scope\nis on by default in all new VMs.</p></li>\n</ul><h3 id=\"google_cloud_dns_4\" data-text=\"Google Cloud DNS\" tabindex=\"-1\">Google Cloud DNS</h3><ul>\n<li>Added <code translate=\"no\" dir=\"ltr\">--replace-origin-ns</code> flag to <code translate=\"no\" dir=\"ltr\">gcloud dns record-sets import</code> command\nto allow importing NS records.</li>\n</ul><h3 id=\"google_cloud_storage_13\" data-text=\"Google Cloud Storage\" tabindex=\"-1\">Google Cloud Storage</h3><ul>\n<li>Updated <code translate=\"no\" dir=\"ltr\">gsutil</code> component to 4.16.</li>\n</ul><h3 id=\"google_container_engine_60\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li><p>Updated kubectl to version 1.1.2.</p></li>\n<li><p>Increased <code translate=\"no\" dir=\"ltr\">gcloud container clusters create/delete</code> timeouts from 20m to\n30m.</p></li>\n<li><p>Added <code translate=\"no\" dir=\"ltr\">--subnetwork</code> flag to <code translate=\"no\" dir=\"ltr\">gcloud container clusters create</code> to allow\ncreation of container clusters can now be created in a Google Compute Engine\nsubnetwork (https://cloud.google.com/compute/docs/subnetworks).</p></li>\n</ul>",
+      "date_published": "2015-12-02T00:00:00+00:00"
+    },
+    {
       "id": "0988_2015-11-25",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0988_2015-11-25",
       "title": "0.9.88 (2015-11-25)",
@@ -206,13 +213,6 @@
       "title": "0.9.60 (2015-05-13)",
       "content_html": "<ul>\n<li>VPN moved to GA.</li>\n<li>Preemptible VM support.</li>\n<li>Bug fixes.</li>\n</ul>",
       "date_published": "2015-05-13T00:00:00+00:00"
-    },
-    {
-      "id": "0959_2015-05-06",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0959_2015-05-06",
-      "title": "0.9.59 (2015-05-06)",
-      "content_html": "<ul>\n<li>Bug fixes.</li>\n</ul>",
-      "date_published": "2015-05-06T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
