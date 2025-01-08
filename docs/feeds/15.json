@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "9000_2015-12-09",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#9000_2015-12-09",
+      "title": "90.0.0 (2015-12-09)",
+      "content_html": "<ul>\n<li>Cloud SDK release version scheme has changed. Patch version is now treated as\na major release version which corresponds to SDK weekly releases.\nAny updates/fixes to released version will increment minor/patch version\nnumber going forward.</li>\n</ul><h3 id=\"breaking_changes_222\" data-text=\"Breaking Changes\" tabindex=\"-1\">Breaking Changes</h3><ul>\n<li>The deprecated flag --clear-target-pool has been removed from\n<code translate=\"no\" dir=\"ltr\">gcloud compute instance-groups managed set-target-pools</code> command.</li>\n</ul><h3 id=\"google_app_engine_71\" data-text=\"Google App Engine\" tabindex=\"-1\">Google App Engine</h3><ul>\n<li>Components updated to 1.9.30.\nPlease visit the following release notes for details:\n<ul>\n<li>Python - https://cloud.google.com/appengine/docs/standard/python/release-notes</li>\n<li>Java - https://cloud.google.com/appengine/docs/standard/java/release-notes</li>\n</ul>\n</li>\n<li>Fixed a bug caused by uploading invalid file names for vm: true applications.</li>\n</ul><h3 id=\"compute\" data-text=\"Compute\" tabindex=\"-1\">Compute</h3><ul>\n<li>Subnetwork support has been promoted from alpha to beta. For more information\nsee https://cloud.google.com/compute/docs/subnetworks.</li>\n</ul>",
+      "date_published": "2015-12-09T00:00:00+00:00"
+    },
+    {
       "id": "0989_2015-12-02",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0989_2015-12-02",
       "title": "0.9.89 (2015-12-02)",
@@ -206,13 +213,6 @@
       "title": "0.9.61 (2015-05-20)",
       "content_html": "<ul>\n<li>New kubectl component (installed by default)</li>\n<li>Internal improvements to gcloud preview app deploy; includes changes to\ncommand output.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview projects</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud alpha projects</code>\n</li>\n<li>Tab completion for <code translate=\"no\" dir=\"ltr\">gcloud compute ssh</code>\n</li>\n</ul>",
       "date_published": "2015-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "0960_2015-05-13",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0960_2015-05-13",
-      "title": "0.9.60 (2015-05-13)",
-      "content_html": "<ul>\n<li>VPN moved to GA.</li>\n<li>Preemptible VM support.</li>\n<li>Bug fixes.</li>\n</ul>",
-      "date_published": "2015-05-13T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"

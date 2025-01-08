@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0960_2015-05-13",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0960_2015-05-13",
+      "title": "0.9.60 (2015-05-13)",
+      "content_html": "<ul>\n<li>VPN moved to GA.</li>\n<li>Preemptible VM support.</li>\n<li>Bug fixes.</li>\n</ul>",
+      "date_published": "2015-05-13T00:00:00+00:00"
+    },
+    {
       "id": "0959_2015-05-06",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0959_2015-05-06",
       "title": "0.9.59 (2015-05-06)",
@@ -206,13 +213,6 @@
       "title": "0.9.28 (2014-07-18)",
       "content_html": "<ul>\n<li>Updated gcutil to 1.16.3 and various App Engine runtimes to 1.9.7 binaries.</li>\n<li>Support running several modules by gcloud app run and fixed output errors.</li>\n<li>Limit gcloud upgrade nags to once per day.</li>\n<li>Bring help files up to date (for example improved the documentation for DM\n'templates create' and 'deployments create').</li>\n<li>Added prompting for regions and zones to most subcommands of the compute\ncomponent.</li>\n<li>Added new subcommands to the compute component for adding and removing\nbackends from backend services.</li>\n<li>Added --ssh-flags to 'gcloud compute ssh' for passing additional flags to\nssh.</li>\n<li>Added image alias support for the --image flag in the compute component.</li>\n</ul>",
       "date_published": "2014-07-18T00:00:00+00:00"
-    },
-    {
-      "id": "0927_2014-06-18",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0927_2014-06-18",
-      "title": "0.9.27 (2014-06-18)",
-      "content_html": "<ul>\n<li>Added --shell mode to all gcloud commands\n<ul>\n<li>Type a partial command followed by '--shell' to drop into a sub shell at\nthat point in the command tree.</li>\n<li>Eg:\n$ gcloud compute --shell\ngcloud compute $ instances list\ngcloud compute $ copy-files ...</li>\n</ul>\n</li>\n<li>Updated gsutil to 4.3</li>\n<li>Allow installed crcmod to be used by default with gsutil by enabling site\npackages</li>\n</ul>",
-      "date_published": "2014-06-18T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"
