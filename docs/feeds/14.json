@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "12000_2016-08-03",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#12000_2016-08-03",
+      "title": "120.0.0 (2016-08-03)",
+      "content_html": "<h3 id=\"deployment_manager_7\" data-text=\"Deployment Manager\" tabindex=\"-1\">Deployment Manager</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">deployment-manager resources list</code> will show INTENT when the resource STATE\nis <code translate=\"no\" dir=\"ltr\">IN_PREVIEW</code>.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">deployment-manager deployments describe</code> will show output values in addition\nto listing the resources.</p></li>\n</ul><h3 id=\"emulators_7\" data-text=\"Emulators\" tabindex=\"-1\">Emulators</h3><ul>\n<li><p>Added a <code translate=\"no\" dir=\"ltr\">gcloud beta emulators bigtable env-init</code> command to export\nenvironment variables required to communicate with the bigtable emulator.</p></li>\n<li><p>The Pub/Sub emulator now correctly starts the push loops when creating a push\nsubscription.</p></li>\n</ul><h3 id=\"google_cloud_dns_3\" data-text=\"Google Cloud DNS\" tabindex=\"-1\">Google Cloud DNS</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud dns</code> now supports CAA records.</li>\n</ul><h3 id=\"google_cloud_storage_9\" data-text=\"Google Cloud Storage\" tabindex=\"-1\">Google Cloud Storage</h3><ul>\n<li>Update gsutil component to 4.20.\nSee: <a href=\"https://github.com/GoogleCloudPlatform/gsutil/blob/v4.20/CHANGES.md\">https://github.com/GoogleCloudPlatform/gsutil/blob/v4.20/CHANGES.md</a>\n</li>\n</ul><h3 id=\"google_compute_enginenetworking_3\" data-text=\"Google Compute Engine/Networking\" tabindex=\"-1\">Google Compute Engine/Networking</h3><ul>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud alpha compute instance-groups managed wait-for-stable</code> command waits\nuntil all <code translate=\"no\" dir=\"ltr\">current_action</code> fields are set to none and there are only no\n<code translate=\"no\" dir=\"ltr\">pending_actions</code> in managed instance group.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud compute xpn</code> commands now available in the alpha release track. These\ncommands configure cross-project networking.</p></li>\n<li><p><code translate=\"no\" dir=\"ltr\">gcloud compute networks subnets {get,set}-iam-policy</code> commands now available\nin alpha.</p></li>\n</ul><h3 id=\"google_container_engine_42\" data-text=\"Google Container Engine\" tabindex=\"-1\">Google Container Engine</h3><ul>\n<li>Update kubectl to 1.3.3.</li>\n</ul>",
+      "date_published": "2016-08-03T00:00:00+00:00"
+    },
+    {
       "id": "11900_2016-07-27",
       "url": "https://cloud.google.com/sdk/docs/release-notes#11900_2016-07-27",
       "title": "119.0.0 (2016-07-27)",
@@ -205,13 +212,6 @@
       "url": "https://cloud.google.com/sdk/docs/release-notes#9101_2015-12-16",
       "title": "91.0.1 (2015-12-16)",
       "content_html": "<ul>\n<li>The Cloud SDK has been rolled back to 90.0.0.</li>\n</ul>",
-      "date_published": "2015-12-16T00:00:00+00:00"
-    },
-    {
-      "id": "9100_2015-12-16",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#9100_2015-12-16",
-      "title": "91.0.0 (2015-12-16)",
-      "content_html": "<h3 id=\"breaking_changes_221\" data-text=\"Breaking Changes\" tabindex=\"-1\">Breaking Changes</h3><ul>\n<li>Deprecated command group <code translate=\"no\" dir=\"ltr\">gcloud compute replica-pools</code> has been removed.</li>\n<li>Deprecated command group <code translate=\"no\" dir=\"ltr\">gcloud compute resource-views</code> has been removed.</li>\n<li>App Engine API is now the only supported method for deploying in the\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> command.</li>\n</ul><h3 id=\"google_app_engine_70\" data-text=\"Google App Engine\" tabindex=\"-1\">Google App Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">DEPLOYABLES</code> argument for <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> is now optional. If not\ngiven, the command defaults to <code translate=\"no\" dir=\"ltr\">app.yaml</code> in the current directory; if that\nis not found, it attempts to automatically generate necessary configuration\nfiles (such as app.yaml) in the current directory before deployment.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--force</code> argument to <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> is now deprecated and will\nbe removed in a future release.</li>\n</ul><h3 id=\"container_2\" data-text=\"Container\" tabindex=\"-1\">Container</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud container</code> commands that poll long running operations (e.g create,\ndelete, upgrade) now display progress details when available.</li>\n</ul>",
       "date_published": "2015-12-16T00:00:00+00:00"
     }
   ],

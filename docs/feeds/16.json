@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0961_2015-05-20",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0961_2015-05-20",
+      "title": "0.9.61 (2015-05-20)",
+      "content_html": "<ul>\n<li>New kubectl component (installed by default)</li>\n<li>Internal improvements to gcloud preview app deploy; includes changes to\ncommand output.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview projects</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud alpha projects</code>\n</li>\n<li>Tab completion for <code translate=\"no\" dir=\"ltr\">gcloud compute ssh</code>\n</li>\n</ul>",
+      "date_published": "2015-05-20T00:00:00+00:00"
+    },
+    {
       "id": "0960_2015-05-13",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0960_2015-05-13",
       "title": "0.9.60 (2015-05-13)",
@@ -206,13 +213,6 @@
       "title": "0.9.29 (2014-08-11)",
       "content_html": "<ul>\n<li>The compute component is now in General Availability.\n<ul>\n<li>Added new 'compute/zone' and 'compute/region' properties that\ncan be used to set a default zone and region. To set the\nproperties, run 'gcloud config set compute/zone ZONE' and 'gcloud\nconfig set compute/region REGION'.</li>\n<li>Added support for overriding disk auto-deletion during instance\ndeletion.</li>\n<li>Updated the output of commands that mutate resources to be more\nhuman-friendly. The --format flag can be used for more verbose\noutput.</li>\n<li>Replaced all 'get' subcommands with 'describe' subcommands (e.g.,\n'gcloud compute instances get' has been replaced with 'gcloud\ncompute instances describe').</li>\n<li>Renamed the 'firewalls' collection to 'firewall-rules'.</li>\n<li>Added support to the 'addresses' collection for interacting with\nglobal addresses.</li>\n</ul>\n</li>\n</ul>",
       "date_published": "2014-08-11T00:00:00+00:00"
-    },
-    {
-      "id": "0928_2014-07-18",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0928_2014-07-18",
-      "title": "0.9.28 (2014-07-18)",
-      "content_html": "<ul>\n<li>Updated gcutil to 1.16.3 and various App Engine runtimes to 1.9.7 binaries.</li>\n<li>Support running several modules by gcloud app run and fixed output errors.</li>\n<li>Limit gcloud upgrade nags to once per day.</li>\n<li>Bring help files up to date (for example improved the documentation for DM\n'templates create' and 'deployments create').</li>\n<li>Added prompting for regions and zones to most subcommands of the compute\ncomponent.</li>\n<li>Added new subcommands to the compute component for adding and removing\nbackends from backend services.</li>\n<li>Added --ssh-flags to 'gcloud compute ssh' for passing additional flags to\nssh.</li>\n<li>Added image alias support for the --image flag in the compute component.</li>\n</ul>",
-      "date_published": "2014-07-18T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/17.json"

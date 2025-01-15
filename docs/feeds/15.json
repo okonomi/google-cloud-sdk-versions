@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "9100_2015-12-16",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#9100_2015-12-16",
+      "title": "91.0.0 (2015-12-16)",
+      "content_html": "<h3 id=\"breaking_changes_221\" data-text=\"Breaking Changes\" tabindex=\"-1\">Breaking Changes</h3><ul>\n<li>Deprecated command group <code translate=\"no\" dir=\"ltr\">gcloud compute replica-pools</code> has been removed.</li>\n<li>Deprecated command group <code translate=\"no\" dir=\"ltr\">gcloud compute resource-views</code> has been removed.</li>\n<li>App Engine API is now the only supported method for deploying in the\n<code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> command.</li>\n</ul><h3 id=\"google_app_engine_70\" data-text=\"Google App Engine\" tabindex=\"-1\">Google App Engine</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">DEPLOYABLES</code> argument for <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> is now optional. If not\ngiven, the command defaults to <code translate=\"no\" dir=\"ltr\">app.yaml</code> in the current directory; if that\nis not found, it attempts to automatically generate necessary configuration\nfiles (such as app.yaml) in the current directory before deployment.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">--force</code> argument to <code translate=\"no\" dir=\"ltr\">gcloud preview app deploy</code> is now deprecated and will\nbe removed in a future release.</li>\n</ul><h3 id=\"container_2\" data-text=\"Container\" tabindex=\"-1\">Container</h3><ul>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud container</code> commands that poll long running operations (e.g create,\ndelete, upgrade) now display progress details when available.</li>\n</ul>",
+      "date_published": "2015-12-16T00:00:00+00:00"
+    },
+    {
       "id": "9000_2015-12-09",
       "url": "https://cloud.google.com/sdk/docs/release-notes#9000_2015-12-09",
       "title": "90.0.0 (2015-12-09)",
@@ -206,13 +213,6 @@
       "title": "0.9.62 (2015-05-27)",
       "content_html": "<ul>\n<li>Not released.</li>\n</ul>",
       "date_published": "2015-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "0961_2015-05-20",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#0961_2015-05-20",
-      "title": "0.9.61 (2015-05-20)",
-      "content_html": "<ul>\n<li>New kubectl component (installed by default)</li>\n<li>Internal improvements to gcloud preview app deploy; includes changes to\ncommand output.</li>\n<li>\n<code translate=\"no\" dir=\"ltr\">gcloud preview projects</code> moved to <code translate=\"no\" dir=\"ltr\">gcloud alpha projects</code>\n</li>\n<li>Tab completion for <code translate=\"no\" dir=\"ltr\">gcloud compute ssh</code>\n</li>\n</ul>",
-      "date_published": "2015-05-20T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/16.json"
