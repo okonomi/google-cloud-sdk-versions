@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "0931_2014-09-02",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#0931_2014-09-02",
+      "title": "0.9.31 (2014-09-02)",
+      "content_html": "<ul>\n<li>Added support for creating and maintaining Cloud SQL read replica instances.\n<ul>\n<li>Added --master-instance-name property that can be set during replica\ncreation to indicate the replication master for the read replica\ninstance.</li>\n<li>Added --enable-database-replication, --no-enable-database-replication\nflags that can be used to start, stop replication for the read replica\ninstance.</li>\n<li>Added 'promote-replica' command that promotes a read replica instance\ninto a stand-alone Cloud SQL instance.</li>\n</ul>\n</li>\n<li>Added several new features to the compute component:\n<ul>\n<li>Implemented new subcommands for interacting with HTTP load balancing:\n<ul>\n<li>gcloud compute backend-services update</li>\n<li>gcloud compute url-maps add-host-rule</li>\n<li>gcloud compute url-maps add-path-matcher</li>\n<li>gcloud compute url-maps remove-host-rule</li>\n<li>gcloud compute url-maps remove-path-matcher</li>\n<li>gcloud compute url-maps set-default-service</li>\n</ul>\n</li>\n<li>Added support for automatically generating initial Windows username and\npassword when creating a virtual machine instance from a Windows\nimage or a disk initializaed from a Windows image.</li>\n<li>Added a new scope alias for Cloud SQL administration: 'sql-admin'.</li>\n</ul>\n</li>\n</ul>",
+      "date_published": "2014-09-02T00:00:00+00:00"
+    },
+    {
       "id": "0930_2014-08-19",
       "url": "https://cloud.google.com/sdk/docs/release-notes#0930_2014-08-19",
       "title": "0.9.30 (2014-08-19)",
@@ -206,13 +213,6 @@
       "title": "0.9.3 (2013-05-24)",
       "content_html": "<ul>\n<li>Upgraded gcutil to 1.8.0</li>\n<li>Upgraded gsutil to 3.29</li>\n</ul>",
       "date_published": "2013-05-24T00:00:00+00:00"
-    },
-    {
-      "id": "092_2013-05-07",
-      "url": "https://cloud.google.com/sdk/docs/release-notes#092_2013-05-07",
-      "title": "0.9.2 (2013-05-07)",
-      "content_html": "<ul>\n<li>Upgraded all App Engine tools to 1.8.0</li>\n<li>Upgraded gsutil to 3.27</li>\n<li>Several improvements to gauth experience\n<ul>\n<li>Will not re-run oauth2 flow if you already have valid credentials (you\ncan force re-auth with the --login flag)</li>\n<li>Added --set-project to change your current project without having to\nre-auth</li>\n<li>Renamed gauth.py to gauth for simplicity</li>\n<li>gauth will warn you if there are older versions of the cloud tools on\nyour path.</li>\n</ul>\n</li>\n</ul>",
-      "date_published": "2013-05-07T00:00:00+00:00"
     }
   ],
   "next_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feeds/18.json"
