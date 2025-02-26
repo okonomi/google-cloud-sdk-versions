@@ -5,6 +5,13 @@
   "feed_url": "https://okonomi.github.io/google-cloud-cli-release-notes-feed/feed.json",
   "items": [
     {
+      "id": "095_2013-06-18",
+      "url": "https://cloud.google.com/sdk/docs/release-notes#095_2013-06-18",
+      "title": "0.9.5 (2013-06-18)",
+      "content_html": "<ul>\n<li>App Engine Hotfix</li>\n</ul>",
+      "date_published": "2013-06-18T00:00:00+00:00"
+    },
+    {
       "id": "094_2013-06-12",
       "url": "https://cloud.google.com/sdk/docs/release-notes#094_2013-06-12",
       "title": "0.9.4 (2013-06-12)",
